@@ -1,0 +1,16 @@
+fold,test_prefix,model,mean_cd,coverage_cd,mmd_cd,one_nn_acc_cd,diversity_cd,source
+0,dg,retrieval_descriptor,0.025146792999204293,0.04938271604938271,0.023509841412305832,1.0,0.019335681572556496,retrieval_stress
+0,dg,retrieval_flat_l2,0.025790771676434412,0.07407407407407407,0.02367716282606125,1.0,0.018225878477096558,retrieval_stress
+1,aj,retrieval_descriptor,0.028465235023759305,0.025,0.022153008729219437,0.9875,0.019827328622341156,retrieval_stress
+1,aj,retrieval_flat_l2,0.02175502968020737,0.425,0.02113860286772251,0.99375,0.018150439485907555,retrieval_stress
+2,dm,retrieval_descriptor,0.037940126331523064,0.075,0.03721082955598831,1.0,0.016630440950393677,retrieval_stress
+2,dm,retrieval_flat_l2,0.03773657944984734,0.2125,0.03680204972624779,1.0,0.019296741113066673,retrieval_stress
+0,prefix_fair_fold0_best_zero,fair_zero_base,0.028197696754409942,0.037037037037037035,0.026664363220334053,1.0,0.012808880768716335,prefix_fair_fold0_best_zero
+0,prefix_zero_finetune_fold0_best_saved,zero_finetune,0.0303595566685185,0.04938271604938271,0.028477713465690613,1.0,0.011578595265746117,prefix_zero_finetune_fold0_best_saved
+0,prefix_ardc_fold0_unfreeze_descriptor_best,ardc_unfreeze_descriptor,0.03097574948620649,0.024691358024691357,0.02942146547138691,1.0,0.011691373772919178,prefix_ardc_fold0_unfreeze_descriptor_best
+1,prefix_fair_fold1_best_zero,fair_zero_base,0.025176049722358585,0.1125,0.024640243500471115,0.99375,0.010476380586624146,prefix_fair_fold1_best_zero
+1,prefix_zero_finetune_fold1_best_saved,zero_finetune,0.025966209708712995,0.0875,0.025281662121415138,0.99375,0.010418670251965523,prefix_zero_finetune_fold1_best_saved
+1,prefix_ardc_fold1_unfreeze_descriptor_best,ardc_unfreeze_descriptor,0.025623186468146743,0.0625,0.024599498137831688,0.99375,0.010882843285799026,prefix_ardc_fold1_unfreeze_descriptor_best
+2,prefix_fair_fold2_best_zero,fair_zero_base,0.03542206333950162,0.1625,0.034801091998815536,1.0,0.010340658947825432,prefix_fair_fold2_best_zero
+2,prefix_zero_finetune_fold2_best_saved,zero_finetune,0.03542414414696395,0.15,0.034779202193021774,1.0,0.008119574747979641,prefix_zero_finetune_fold2_best_saved
+2,prefix_ardc_fold2_unfreeze_descriptor_best,ardc_unfreeze_descriptor,0.035199709702283144,0.1375,0.03452412039041519,1.0,0.013260001316666603,prefix_ardc_fold2_unfreeze_descriptor_best

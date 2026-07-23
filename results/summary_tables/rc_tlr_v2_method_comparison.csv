@@ -1,0 +1,7 @@
+method,mean_cd,flat_l2_cd,relative_reduction_vs_flat,tlr_sample_fraction,coverage_cd,mmd_cd,selected_collapse_max_top_frac,selected_collapse_min_unique_ratio,interpretation
+flat-L2 reference,0.027777201,0.027777201,0.0000,0.0000,0.080146,0.025139,0.0000,0.0000,robust train-only retrieval reference
+prefix collapse-aware RC-TLR,0.026400999,0.027778103,0.0496,1.0000,0.080146,0.025139,0.6000,0.0375,previous best valid mean; still over-selects aj/cs/lx
+samplewise RC-TLR,0.026550711,0.027777201,0.0442,0.5432,0.144970,0.025100,1.0000,0.0909,higher coverage but weaker CD result
+RC-TLR v2 conservative,0.026360483,0.027777201,0.0510,0.4869,0.174986,0.025082,0.7385,0.0769,best valid retrieval result; blocks dm/jc collapse and avoids lx over-selection
+blend RC-TLR v2 conservative,0.026360483,0.027777201,0.0510,0.4869,0.174986,0.025082,0.7385,0.0769,blend candidates were not selected by validation and match v2
+meta kNN RC-TLR,0.026609554,0.027777201,0.0420,0.5257,0.156205,0.025049,1.0000,0.0875,overly conservative on dg/gd; not retained as main result

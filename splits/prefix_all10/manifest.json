@@ -1,0 +1,107 @@
+{
+  "matched_pairs": 799,
+  "prefix_counts": {
+    "aj": 80,
+    "cs": 80,
+    "dg": 81,
+    "dm": 80,
+    "gd": 80,
+    "jc": 80,
+    "kj": 80,
+    "lt": 80,
+    "lx": 78,
+    "xd": 80
+  },
+  "folds": [
+    {
+      "fold_id": 0,
+      "path": "prefix_fold0_aj_test_cs_val.json",
+      "test_prefix": "aj",
+      "val_prefix": "cs",
+      "train_size": 639,
+      "val_size": 80,
+      "test_size": 80
+    },
+    {
+      "fold_id": 1,
+      "path": "prefix_fold1_cs_test_dm_val.json",
+      "test_prefix": "cs",
+      "val_prefix": "dm",
+      "train_size": 639,
+      "val_size": 80,
+      "test_size": 80
+    },
+    {
+      "fold_id": 2,
+      "path": "prefix_fold2_dg_test_lx_val.json",
+      "test_prefix": "dg",
+      "val_prefix": "lx",
+      "train_size": 640,
+      "val_size": 78,
+      "test_size": 81
+    },
+    {
+      "fold_id": 3,
+      "path": "prefix_fold3_dm_test_gd_val.json",
+      "test_prefix": "dm",
+      "val_prefix": "gd",
+      "train_size": 639,
+      "val_size": 80,
+      "test_size": 80
+    },
+    {
+      "fold_id": 4,
+      "path": "prefix_fold4_gd_test_jc_val.json",
+      "test_prefix": "gd",
+      "val_prefix": "jc",
+      "train_size": 639,
+      "val_size": 80,
+      "test_size": 80
+    },
+    {
+      "fold_id": 5,
+      "path": "prefix_fold5_jc_test_kj_val.json",
+      "test_prefix": "jc",
+      "val_prefix": "kj",
+      "train_size": 639,
+      "val_size": 80,
+      "test_size": 80
+    },
+    {
+      "fold_id": 6,
+      "path": "prefix_fold6_kj_test_lt_val.json",
+      "test_prefix": "kj",
+      "val_prefix": "lt",
+      "train_size": 639,
+      "val_size": 80,
+      "test_size": 80
+    },
+    {
+      "fold_id": 7,
+      "path": "prefix_fold7_lt_test_lx_val.json",
+      "test_prefix": "lt",
+      "val_prefix": "lx",
+      "train_size": 641,
+      "val_size": 78,
+      "test_size": 80
+    },
+    {
+      "fold_id": 8,
+      "path": "prefix_fold8_lx_test_xd_val.json",
+      "test_prefix": "lx",
+      "val_prefix": "xd",
+      "train_size": 641,
+      "val_size": 80,
+      "test_size": 78
+    },
+    {
+      "fold_id": 9,
+      "path": "prefix_fold9_xd_test_aj_val.json",
+      "test_prefix": "xd",
+      "val_prefix": "aj",
+      "train_size": 639,
+      "val_size": 80,
+      "test_size": 80
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+family,method,folds,mean_cd,coverage,mmd,status
+FIRF residual field,FIRF no-adv fold0,1,0.17728435359895228,0.0625,0.1764850616455078,negative
+FIRF residual field,FIRF adv fold0,1,0.17602992355823516,0.0625,0.17522069811820984,negative
+FIRF residual field,FIRF CD+adv fold0,1,0.09025407079607248,0.05,0.088974729180336,negative
+FIRF residual field,FIRF no-adv fold3,1,0.1881298128515482,0.0625,0.18779975175857544,negative
+FIRF residual field,FIRF adv fold3,1,0.1922923183068633,0.075,0.19193772971630096,negative
+FIRF residual field,FIRF CD+adv fold3,1,0.09858459765091539,0.0125,0.0971306711435318,negative
+counterfactual transport,flat_l2 none,10,0.027783092573030382,,,baseline
+counterfactual transport,flat_l2 centroid_delta,10,0.027786241747184186,,,no gain over flat-L2 top1
+counterfactual transport,flat_l2 diag_affine,10,0.027848005502397178,,,no gain over flat-L2 top1
+counterfactual transport,flat_l2 point_delta,10,0.027783092573030382,,,no gain over flat-L2 top1
+kNN design ensemble,validation-selected k/tau,10,0.030702669720312693,0.22368945868945866,0.025291186384856702,negative; validation k=3 caused fold5 failure
+target-latent retrieval,NCE h512 all10,10,0.053379801281118466,,,unstable; fold5 collapse
+target-latent retrieval,best observed TLR per fold,10,0.053251097795875446,,,negative due fold5 collapse; not valid as main method
+target-latent retrieval,"oracle min(flat,TLR) diagnostic",10,0.026092259803738672,,,diagnostic only; shows possible upside if gating solved
+target-latent retrieval,inner leave-prefix gate,10,0.05452205004244167,,,negative; gate selected collapsed fold5
+risk-controlled TLR,prefix collapse-aware RC-TLR,10,0.02640099908264375,0.08014601139601138,0.025139385648071767,positive; beats all-10 flat-L2 by 4.96%; blocks fold5 collapse
+risk-controlled TLR,samplewise RC-TLR,10,0.026550710664881644,0.14497032288698955,0.025100265629589558,positive vs flat-L2 with higher coverage; lower CD gain than prefix RC-TLR
+risk-controlled TLR,RC-TLR v2 conservative,10,0.02636048313701686,0.17498575498575497,0.025081815384328365,best valid mean; sample-prefix risk selector; no selected collapse
+risk-controlled TLR,RC-TLR v2 blend conservative,10,0.02636048313701686,0.17498575498575497,0.025081815384328365,blend candidates evaluated but not selected beyond v2
+risk-controlled TLR,meta kNN RC-TLR,10,0.02660955361396398,0.1562048907882241,0.02504852320998907,over-prunes useful TLR cases; diagnostic not main
+risk-controlled TLR,prefix RC-TLR MSE h512,10,0.027263729345057414,0.08013176638176639,0.025090558640658855,weak positive but worse than NCE h512 main
+risk-controlled TLR,prefix RC-TLR NCE h256,10,0.027446796791612528,0.0776460113960114,0.02510484345257282,weak positive but worse than NCE h512 main
+reference,flat-L2 top1 all10,10,0.02777661720957432,0.23243945868945867,0.02520646583288908,current strongest robust prefix baseline

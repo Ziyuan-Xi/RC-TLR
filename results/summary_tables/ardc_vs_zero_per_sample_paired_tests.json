@@ -1,0 +1,62 @@
+[
+  {
+    "comparison": "ARDC adaptive vs zero fine-tune saved",
+    "seed": 7,
+    "n_samples": 81,
+    "wins": 43,
+    "losses": 38,
+    "mean_delta_cd_zero_minus_ardc": 6.190949568042049e-06,
+    "median_delta_cd_zero_minus_ardc": 4.785135388374329e-06,
+    "bootstrap95_low": -2.1457085730852903e-05,
+    "bootstrap95_high": 3.491964099215873e-05,
+    "sign_flip_p_two_sided": 0.671916404179791
+  },
+  {
+    "comparison": "ARDC adaptive vs zero fine-tune saved",
+    "seed": 13,
+    "n_samples": 81,
+    "wins": 44,
+    "losses": 37,
+    "mean_delta_cd_zero_minus_ardc": 2.355360782440798e-06,
+    "median_delta_cd_zero_minus_ardc": 3.537256270647049e-05,
+    "bootstrap95_low": -3.632335107267639e-05,
+    "bootstrap95_high": 3.839337071518839e-05,
+    "sign_flip_p_two_sided": 0.8992550372481376
+  },
+  {
+    "comparison": "ARDC adaptive vs zero fine-tune saved",
+    "seed": 21,
+    "n_samples": 81,
+    "wins": 58,
+    "losses": 23,
+    "mean_delta_cd_zero_minus_ardc": 5.5984203002335114e-05,
+    "median_delta_cd_zero_minus_ardc": 6.050989031791687e-05,
+    "bootstrap95_low": 2.192386230568827e-05,
+    "bootstrap95_high": 8.927870909740896e-05,
+    "sign_flip_p_two_sided": 0.0013499325033748313
+  },
+  {
+    "comparison": "ARDC adaptive vs zero fine-tune saved",
+    "seed": 42,
+    "n_samples": 81,
+    "wins": 51,
+    "losses": 30,
+    "mean_delta_cd_zero_minus_ardc": 5.734557814804124e-05,
+    "median_delta_cd_zero_minus_ardc": 3.601890057325363e-05,
+    "bootstrap95_low": 2.302024743439239e-05,
+    "bootstrap95_high": 9.233765534044784e-05,
+    "sign_flip_p_two_sided": 0.0013499325033748313
+  },
+  {
+    "comparison": "ARDC adaptive vs zero fine-tune saved",
+    "seed": "pooled",
+    "n_samples": 324,
+    "wins": 196,
+    "losses": 128,
+    "mean_delta_cd_zero_minus_ardc": 3.04690228752148e-05,
+    "median_delta_cd_zero_minus_ardc": 3.416091203689575e-05,
+    "bootstrap95_low": 1.3451344896981746e-05,
+    "bootstrap95_high": 4.733365925925749e-05,
+    "sign_flip_p_two_sided": 0.0006499675016249188
+  }
+]

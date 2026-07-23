@@ -1,0 +1,94 @@
+{
+  "rows": [
+    {
+      "scope": "random_full_split",
+      "method": "condition_copy",
+      "n_units": 4,
+      "test_cd_mean": 0.30360091072909623,
+      "test_cd_sd": 0.003311252257336349,
+      "coverage_mean": "",
+      "mmd_cd_mean": "",
+      "note": "Uses conditioning point array as output; sanity baseline only."
+    },
+    {
+      "scope": "random_full_split",
+      "method": "retrieval_descriptor",
+      "n_units": 4,
+      "test_cd_mean": 0.01806134080376338,
+      "test_cd_sd": 0.00013441489114146465,
+      "coverage_mean": 0.5154320987654321,
+      "mmd_cd_mean": 0.01715870201587677,
+      "note": "Train-only descriptor nearest-neighbor baseline."
+    },
+    {
+      "scope": "random_full_split",
+      "method": "original_generator_architecture",
+      "n_units": 4,
+      "test_cd_mean": 0.01627939362308861,
+      "test_cd_sd": 0.0002019273537362608,
+      "coverage_mean": 0.75,
+      "mmd_cd_mean": 0.01622150419279933,
+      "note": "Reconstruction-trained CGAN-style architecture under fair random splits."
+    },
+    {
+      "scope": "random_full_split",
+      "method": "zero_latent_finetune",
+      "n_units": 4,
+      "test_cd_mean": 0.015893470403956778,
+      "test_cd_sd": 0.00011610890806001862,
+      "coverage_mean": 0.8209876543209876,
+      "mmd_cd_mean": 0.01585455797612667,
+      "note": "Deterministic zero-latent fine-tuning baseline; strongest non-memory comparator."
+    },
+    {
+      "scope": "random_full_split",
+      "method": "ardc_unfreeze_descriptor",
+      "n_units": 4,
+      "test_cd_mean": 0.015863001381081564,
+      "test_cd_sd": 0.00011066419565050889,
+      "coverage_mean": 0.8271604938271605,
+      "mmd_cd_mean": 0.015820817090570927,
+      "note": "Best ARDC random-split policy; small gain over zero-latent fine-tune."
+    },
+    {
+      "scope": "prefix_all10_holdout",
+      "method": "condition_copy",
+      "n_units": 10,
+      "test_cd_mean": 0.3057935733279498,
+      "test_cd_sd": 0.006227168434279349,
+      "coverage_mean": 0.043675213675213674,
+      "mmd_cd_mean": 0.30430867075920104,
+      "note": "Leave-prefix-out stress test; equal-prefix fold mean."
+    },
+    {
+      "scope": "prefix_all10_holdout",
+      "method": "retrieval_descriptor",
+      "n_units": 10,
+      "test_cd_mean": 0.028129941048759502,
+      "test_cd_sd": 0.0071256911274846565,
+      "coverage_mean": 0.05647673314339981,
+      "mmd_cd_mean": 0.02520565539598465,
+      "note": "Leave-prefix-out stress test; equal-prefix fold mean."
+    },
+    {
+      "scope": "prefix_all10_holdout",
+      "method": "retrieval_flat_l2",
+      "n_units": 10,
+      "test_cd_mean": 0.027776617204917708,
+      "test_cd_sd": 0.006663537105915088,
+      "coverage_mean": 0.23243945868945867,
+      "mmd_cd_mean": 0.02520646583288908,
+      "note": "Leave-prefix-out stress test; equal-prefix fold mean."
+    },
+    {
+      "scope": "prefix_all10_holdout",
+      "method": "zero_latent_generator_output",
+      "n_units": 10,
+      "test_cd_mean": 0.03174417755932256,
+      "test_cd_sd": 0.008999521118070617,
+      "coverage_mean": 0.08527421652421653,
+      "mmd_cd_mean": 0.03076373543590307,
+      "note": "Leave-prefix-out stress test; equal-prefix fold mean."
+    }
+  ]
+}

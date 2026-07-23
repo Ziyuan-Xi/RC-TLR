@@ -1,0 +1,211 @@
+{
+  "summary": [
+    {
+      "model": "ardc_unfreeze_descriptor",
+      "n_folds": 3,
+      "mean_cd": 0.030599548552212124,
+      "std_cd": 0.0047993327318016045,
+      "mean_coverage_cd": 0.07489711934156379,
+      "mean_mmd_cd": 0.02951502799987793
+    },
+    {
+      "model": "fair_zero_base",
+      "n_folds": 3,
+      "mean_cd": 0.02959860327209005,
+      "std_cd": 0.005264703511512217,
+      "mean_coverage_cd": 0.10401234567901235,
+      "mean_mmd_cd": 0.0287018995732069
+    },
+    {
+      "model": "retrieval_descriptor",
+      "n_folds": 3,
+      "mean_cd": 0.030517384784828887,
+      "std_cd": 0.006638963278957647,
+      "mean_coverage_cd": 0.04979423868312757,
+      "mean_mmd_cd": 0.027624559899171192
+    },
+    {
+      "model": "retrieval_flat_l2",
+      "n_folds": 3,
+      "mean_cd": 0.028427460268829707,
+      "std_cd": 0.00831063043997388,
+      "mean_coverage_cd": 0.23719135802469135,
+      "mean_mmd_cd": 0.02720593847334385
+    },
+    {
+      "model": "zero_finetune",
+      "n_folds": 3,
+      "mean_cd": 0.030583303508065148,
+      "std_cd": 0.00473293544702637,
+      "mean_coverage_cd": 0.0956275720164609,
+      "mean_mmd_cd": 0.029512859260042507
+    }
+  ],
+  "long": [
+    {
+      "fold": "0",
+      "test_prefix": "dg",
+      "model": "retrieval_descriptor",
+      "mean_cd": 0.025146792999204293,
+      "coverage_cd": 0.04938271604938271,
+      "mmd_cd": 0.023509841412305832,
+      "one_nn_acc_cd": 1.0,
+      "diversity_cd": 0.019335681572556496,
+      "source": "retrieval_stress"
+    },
+    {
+      "fold": "0",
+      "test_prefix": "dg",
+      "model": "retrieval_flat_l2",
+      "mean_cd": 0.025790771676434412,
+      "coverage_cd": 0.07407407407407407,
+      "mmd_cd": 0.02367716282606125,
+      "one_nn_acc_cd": 1.0,
+      "diversity_cd": 0.018225878477096558,
+      "source": "retrieval_stress"
+    },
+    {
+      "fold": "1",
+      "test_prefix": "aj",
+      "model": "retrieval_descriptor",
+      "mean_cd": 0.028465235023759305,
+      "coverage_cd": 0.025,
+      "mmd_cd": 0.022153008729219437,
+      "one_nn_acc_cd": 0.9875,
+      "diversity_cd": 0.019827328622341156,
+      "source": "retrieval_stress"
+    },
+    {
+      "fold": "1",
+      "test_prefix": "aj",
+      "model": "retrieval_flat_l2",
+      "mean_cd": 0.02175502968020737,
+      "coverage_cd": 0.425,
+      "mmd_cd": 0.02113860286772251,
+      "one_nn_acc_cd": 0.99375,
+      "diversity_cd": 0.018150439485907555,
+      "source": "retrieval_stress"
+    },
+    {
+      "fold": "2",
+      "test_prefix": "dm",
+      "model": "retrieval_descriptor",
+      "mean_cd": 0.037940126331523064,
+      "coverage_cd": 0.075,
+      "mmd_cd": 0.03721082955598831,
+      "one_nn_acc_cd": 1.0,
+      "diversity_cd": 0.016630440950393677,
+      "source": "retrieval_stress"
+    },
+    {
+      "fold": "2",
+      "test_prefix": "dm",
+      "model": "retrieval_flat_l2",
+      "mean_cd": 0.03773657944984734,
+      "coverage_cd": 0.2125,
+      "mmd_cd": 0.03680204972624779,
+      "one_nn_acc_cd": 1.0,
+      "diversity_cd": 0.019296741113066673,
+      "source": "retrieval_stress"
+    },
+    {
+      "fold": 0,
+      "test_prefix": "prefix_fair_fold0_best_zero",
+      "model": "fair_zero_base",
+      "mean_cd": 0.028197696754409942,
+      "coverage_cd": 0.037037037037037035,
+      "mmd_cd": 0.026664363220334053,
+      "one_nn_acc_cd": 1.0,
+      "diversity_cd": 0.012808880768716335,
+      "source": "prefix_fair_fold0_best_zero"
+    },
+    {
+      "fold": 0,
+      "test_prefix": "prefix_zero_finetune_fold0_best_saved",
+      "model": "zero_finetune",
+      "mean_cd": 0.0303595566685185,
+      "coverage_cd": 0.04938271604938271,
+      "mmd_cd": 0.028477713465690613,
+      "one_nn_acc_cd": 1.0,
+      "diversity_cd": 0.011578595265746117,
+      "source": "prefix_zero_finetune_fold0_best_saved"
+    },
+    {
+      "fold": 0,
+      "test_prefix": "prefix_ardc_fold0_unfreeze_descriptor_best",
+      "model": "ardc_unfreeze_descriptor",
+      "mean_cd": 0.03097574948620649,
+      "coverage_cd": 0.024691358024691357,
+      "mmd_cd": 0.02942146547138691,
+      "one_nn_acc_cd": 1.0,
+      "diversity_cd": 0.011691373772919178,
+      "source": "prefix_ardc_fold0_unfreeze_descriptor_best"
+    },
+    {
+      "fold": 1,
+      "test_prefix": "prefix_fair_fold1_best_zero",
+      "model": "fair_zero_base",
+      "mean_cd": 0.025176049722358585,
+      "coverage_cd": 0.1125,
+      "mmd_cd": 0.024640243500471115,
+      "one_nn_acc_cd": 0.99375,
+      "diversity_cd": 0.010476380586624146,
+      "source": "prefix_fair_fold1_best_zero"
+    },
+    {
+      "fold": 1,
+      "test_prefix": "prefix_zero_finetune_fold1_best_saved",
+      "model": "zero_finetune",
+      "mean_cd": 0.025966209708712995,
+      "coverage_cd": 0.0875,
+      "mmd_cd": 0.025281662121415138,
+      "one_nn_acc_cd": 0.99375,
+      "diversity_cd": 0.010418670251965523,
+      "source": "prefix_zero_finetune_fold1_best_saved"
+    },
+    {
+      "fold": 1,
+      "test_prefix": "prefix_ardc_fold1_unfreeze_descriptor_best",
+      "model": "ardc_unfreeze_descriptor",
+      "mean_cd": 0.025623186468146743,
+      "coverage_cd": 0.0625,
+      "mmd_cd": 0.024599498137831688,
+      "one_nn_acc_cd": 0.99375,
+      "diversity_cd": 0.010882843285799026,
+      "source": "prefix_ardc_fold1_unfreeze_descriptor_best"
+    },
+    {
+      "fold": 2,
+      "test_prefix": "prefix_fair_fold2_best_zero",
+      "model": "fair_zero_base",
+      "mean_cd": 0.03542206333950162,
+      "coverage_cd": 0.1625,
+      "mmd_cd": 0.034801091998815536,
+      "one_nn_acc_cd": 1.0,
+      "diversity_cd": 0.010340658947825432,
+      "source": "prefix_fair_fold2_best_zero"
+    },
+    {
+      "fold": 2,
+      "test_prefix": "prefix_zero_finetune_fold2_best_saved",
+      "model": "zero_finetune",
+      "mean_cd": 0.03542414414696395,
+      "coverage_cd": 0.15,
+      "mmd_cd": 0.034779202193021774,
+      "one_nn_acc_cd": 1.0,
+      "diversity_cd": 0.008119574747979641,
+      "source": "prefix_zero_finetune_fold2_best_saved"
+    },
+    {
+      "fold": 2,
+      "test_prefix": "prefix_ardc_fold2_unfreeze_descriptor_best",
+      "model": "ardc_unfreeze_descriptor",
+      "mean_cd": 0.035199709702283144,
+      "coverage_cd": 0.1375,
+      "mmd_cd": 0.03452412039041519,
+      "one_nn_acc_cd": 1.0,
+      "diversity_cd": 0.013260001316666603,
+      "source": "prefix_ardc_fold2_unfreeze_descriptor_best"
+    }
+  ]
+}

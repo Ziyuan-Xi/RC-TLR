@@ -1,0 +1,6 @@
+# Install a PyTorch build suitable for your CPU/CUDA platform first:
+# https://pytorch.org/get-started/locally/
+torch>=2.1
+numpy==1.26.4
+scipy==1.13.1
+matplotlib==3.8.3

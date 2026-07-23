@@ -1,0 +1,30 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Experiment outputs and model weights
+runs/
+eval/
+logs/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# Raw research data remains local and is not pushed to normal Git history.
+_release_assets/
+data/sample/**/*.npy
+data/synthetic/
+
+# Generated data archives
+*.zip
+*.rar
+*.7z

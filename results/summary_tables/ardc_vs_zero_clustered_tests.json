@@ -1,0 +1,2313 @@
+{
+  "cluster_tests": [
+    {
+      "comparison": "ARDC adaptive vs zero-latent fine-tune saved",
+      "cluster_level": "seed",
+      "n_clusters": 4,
+      "n_pairs": 324,
+      "wins": 4,
+      "losses": 0,
+      "mean_delta_cd_zero_minus_ardc": 3.04690228752148e-05,
+      "bootstrap95_low": 4.273155175241424e-06,
+      "bootstrap95_high": 5.666489057518818e-05,
+      "sign_test_p_two_sided": 0.125,
+      "note": "Primary conservative audit; only four random-split seeds are available."
+    },
+    {
+      "comparison": "ARDC adaptive vs zero-latent fine-tune saved",
+      "cluster_level": "basename",
+      "n_clusters": 274,
+      "n_pairs": 324,
+      "wins": 160,
+      "losses": 114,
+      "mean_delta_cd_zero_minus_ardc": 2.7509871870279312e-05,
+      "bootstrap95_low": 8.700426255518212e-06,
+      "bootstrap95_high": 4.614222740387394e-05,
+      "sign_test_p_two_sided": 0.006451928990872362,
+      "note": "Secondary clustered audit; samples repeated across seed splits are grouped by basename."
+    },
+    {
+      "comparison": "ARDC adaptive vs zero-latent fine-tune saved",
+      "cluster_level": "sample_pooled_reference_only",
+      "n_clusters": 324,
+      "n_pairs": 324,
+      "wins": 196,
+      "losses": 128,
+      "mean_delta_cd_zero_minus_ardc": 3.04690228752148e-05,
+      "bootstrap95_low": 1.3385514188327907e-05,
+      "bootstrap95_high": 4.754970310094916e-05,
+      "sign_test_p_two_sided": "",
+      "note": "Reference only; not the primary inferential unit because samples are nested within seeds and basenames."
+    }
+  ],
+  "paired_samples": [
+    {
+      "seed": 7,
+      "name": "aj00112.npy",
+      "zero_cd": 0.015809204429388046,
+      "ardc_cd": 0.015804419293999672,
+      "delta_zero_minus_ardc": 4.785135388374329e-06
+    },
+    {
+      "seed": 7,
+      "name": "aj00128.npy",
+      "zero_cd": 0.015361513942480087,
+      "ardc_cd": 0.015596603974699974,
+      "delta_zero_minus_ardc": -0.00023509003221988678
+    },
+    {
+      "seed": 7,
+      "name": "aj00149.npy",
+      "zero_cd": 0.015709856525063515,
+      "ardc_cd": 0.01570792868733406,
+      "delta_zero_minus_ardc": 1.9278377294540405e-06
+    },
+    {
+      "seed": 7,
+      "name": "aj00151.npy",
+      "zero_cd": 0.01669025607407093,
+      "ardc_cd": 0.016863973811268806,
+      "delta_zero_minus_ardc": -0.00017371773719787598
+    },
+    {
+      "seed": 7,
+      "name": "aj00160.npy",
+      "zero_cd": 0.01571650803089142,
+      "ardc_cd": 0.015901383012533188,
+      "delta_zero_minus_ardc": -0.0001848749816417694
+    },
+    {
+      "seed": 7,
+      "name": "aj00173.npy",
+      "zero_cd": 0.016390696167945862,
+      "ardc_cd": 0.01649424061179161,
+      "delta_zero_minus_ardc": -0.0001035444438457489
+    },
+    {
+      "seed": 7,
+      "name": "cs00105.npy",
+      "zero_cd": 0.015026386827230453,
+      "ardc_cd": 0.015111817046999931,
+      "delta_zero_minus_ardc": -8.543021976947784e-05
+    },
+    {
+      "seed": 7,
+      "name": "cs00115.npy",
+      "zero_cd": 0.015104088932275772,
+      "ardc_cd": 0.015203909017145634,
+      "delta_zero_minus_ardc": -9.98200848698616e-05
+    },
+    {
+      "seed": 7,
+      "name": "cs00133.npy",
+      "zero_cd": 0.015265101566910744,
+      "ardc_cd": 0.01522967778146267,
+      "delta_zero_minus_ardc": 3.542378544807434e-05
+    },
+    {
+      "seed": 7,
+      "name": "cs00143.npy",
+      "zero_cd": 0.014723444357514381,
+      "ardc_cd": 0.01474355161190033,
+      "delta_zero_minus_ardc": -2.010725438594818e-05
+    },
+    {
+      "seed": 7,
+      "name": "cs00145.npy",
+      "zero_cd": 0.015126781538128853,
+      "ardc_cd": 0.01496352069079876,
+      "delta_zero_minus_ardc": 0.00016326084733009338
+    },
+    {
+      "seed": 7,
+      "name": "cs00152.npy",
+      "zero_cd": 0.014571106992661953,
+      "ardc_cd": 0.014753981493413448,
+      "delta_zero_minus_ardc": -0.00018287450075149536
+    },
+    {
+      "seed": 7,
+      "name": "cs00158.npy",
+      "zero_cd": 0.014827167615294456,
+      "ardc_cd": 0.014954496175050735,
+      "delta_zero_minus_ardc": -0.000127328559756279
+    },
+    {
+      "seed": 7,
+      "name": "cs00162.npy",
+      "zero_cd": 0.01481037400662899,
+      "ardc_cd": 0.014836521819233894,
+      "delta_zero_minus_ardc": -2.6147812604904175e-05
+    },
+    {
+      "seed": 7,
+      "name": "cs00164.npy",
+      "zero_cd": 0.015195069834589958,
+      "ardc_cd": 0.015164894051849842,
+      "delta_zero_minus_ardc": 3.017578274011612e-05
+    },
+    {
+      "seed": 7,
+      "name": "dg00101.npy",
+      "zero_cd": 0.017766747623682022,
+      "ardc_cd": 0.01765228994190693,
+      "delta_zero_minus_ardc": 0.00011445768177509308
+    },
+    {
+      "seed": 7,
+      "name": "dg00120.npy",
+      "zero_cd": 0.01591392606496811,
+      "ardc_cd": 0.016050484031438828,
+      "delta_zero_minus_ardc": -0.00013655796647071838
+    },
+    {
+      "seed": 7,
+      "name": "dg00140.npy",
+      "zero_cd": 0.01725711300969124,
+      "ardc_cd": 0.017126617953181267,
+      "delta_zero_minus_ardc": 0.00013049505650997162
+    },
+    {
+      "seed": 7,
+      "name": "dg00176.npy",
+      "zero_cd": 0.015840744599699974,
+      "ardc_cd": 0.015748053789138794,
+      "delta_zero_minus_ardc": 9.269081056118011e-05
+    },
+    {
+      "seed": 7,
+      "name": "dg00178.npy",
+      "zero_cd": 0.016116032376885414,
+      "ardc_cd": 0.016100235283374786,
+      "delta_zero_minus_ardc": 1.5797093510627747e-05
+    },
+    {
+      "seed": 7,
+      "name": "dm00403.npy",
+      "zero_cd": 0.01655752584338188,
+      "ardc_cd": 0.016703816130757332,
+      "delta_zero_minus_ardc": -0.00014629028737545013
+    },
+    {
+      "seed": 7,
+      "name": "dm00404.npy",
+      "zero_cd": 0.016734346747398376,
+      "ardc_cd": 0.016664762049913406,
+      "delta_zero_minus_ardc": 6.958469748497009e-05
+    },
+    {
+      "seed": 7,
+      "name": "dm00424.npy",
+      "zero_cd": 0.017231488600373268,
+      "ardc_cd": 0.01733488216996193,
+      "delta_zero_minus_ardc": -0.0001033935695886612
+    },
+    {
+      "seed": 7,
+      "name": "dm00438.npy",
+      "zero_cd": 0.016805347055196762,
+      "ardc_cd": 0.016866561025381088,
+      "delta_zero_minus_ardc": -6.121397018432617e-05
+    },
+    {
+      "seed": 7,
+      "name": "dm00449.npy",
+      "zero_cd": 0.016952715814113617,
+      "ardc_cd": 0.017149871215224266,
+      "delta_zero_minus_ardc": -0.0001971554011106491
+    },
+    {
+      "seed": 7,
+      "name": "dm00454.npy",
+      "zero_cd": 0.016750376671552658,
+      "ardc_cd": 0.016757357865571976,
+      "delta_zero_minus_ardc": -6.981194019317627e-06
+    },
+    {
+      "seed": 7,
+      "name": "dm00479.npy",
+      "zero_cd": 0.01679212972521782,
+      "ardc_cd": 0.0168144628405571,
+      "delta_zero_minus_ardc": -2.2333115339279175e-05
+    },
+    {
+      "seed": 7,
+      "name": "gd00104.npy",
+      "zero_cd": 0.01501244306564331,
+      "ardc_cd": 0.01482937578111887,
+      "delta_zero_minus_ardc": 0.00018306728452444077
+    },
+    {
+      "seed": 7,
+      "name": "gd00116.npy",
+      "zero_cd": 0.015419704839587212,
+      "ardc_cd": 0.01533493585884571,
+      "delta_zero_minus_ardc": 8.476898074150085e-05
+    },
+    {
+      "seed": 7,
+      "name": "gd00129.npy",
+      "zero_cd": 0.014958282932639122,
+      "ardc_cd": 0.014726673252880573,
+      "delta_zero_minus_ardc": 0.00023160967975854874
+    },
+    {
+      "seed": 7,
+      "name": "gd00133.npy",
+      "zero_cd": 0.015049928799271584,
+      "ardc_cd": 0.014820893295109272,
+      "delta_zero_minus_ardc": 0.00022903550416231155
+    },
+    {
+      "seed": 7,
+      "name": "gd00134.npy",
+      "zero_cd": 0.015133325010538101,
+      "ardc_cd": 0.015031127259135246,
+      "delta_zero_minus_ardc": 0.00010219775140285492
+    },
+    {
+      "seed": 7,
+      "name": "gd00145.npy",
+      "zero_cd": 0.014858277514576912,
+      "ardc_cd": 0.014797521755099297,
+      "delta_zero_minus_ardc": 6.0755759477615356e-05
+    },
+    {
+      "seed": 7,
+      "name": "gd00148.npy",
+      "zero_cd": 0.014966554008424282,
+      "ardc_cd": 0.014710487797856331,
+      "delta_zero_minus_ardc": 0.0002560662105679512
+    },
+    {
+      "seed": 7,
+      "name": "gd00169.npy",
+      "zero_cd": 0.015183419920504093,
+      "ardc_cd": 0.015139113180339336,
+      "delta_zero_minus_ardc": 4.4306740164756775e-05
+    },
+    {
+      "seed": 7,
+      "name": "gd00171.npy",
+      "zero_cd": 0.015290440060198307,
+      "ardc_cd": 0.01526566594839096,
+      "delta_zero_minus_ardc": 2.4774111807346344e-05
+    },
+    {
+      "seed": 7,
+      "name": "gd00173.npy",
+      "zero_cd": 0.01500658132135868,
+      "ardc_cd": 0.014982867985963821,
+      "delta_zero_minus_ardc": 2.3713335394859314e-05
+    },
+    {
+      "seed": 7,
+      "name": "jc00102.npy",
+      "zero_cd": 0.017078202217817307,
+      "ardc_cd": 0.01698758453130722,
+      "delta_zero_minus_ardc": 9.061768651008606e-05
+    },
+    {
+      "seed": 7,
+      "name": "jc00110.npy",
+      "zero_cd": 0.016994904726743698,
+      "ardc_cd": 0.01692335307598114,
+      "delta_zero_minus_ardc": 7.155165076255798e-05
+    },
+    {
+      "seed": 7,
+      "name": "jc00125.npy",
+      "zero_cd": 0.016489360481500626,
+      "ardc_cd": 0.01662168651819229,
+      "delta_zero_minus_ardc": -0.00013232603669166565
+    },
+    {
+      "seed": 7,
+      "name": "jc00127.npy",
+      "zero_cd": 0.016926981508731842,
+      "ardc_cd": 0.016958948224782944,
+      "delta_zero_minus_ardc": -3.1966716051101685e-05
+    },
+    {
+      "seed": 7,
+      "name": "jc00144.npy",
+      "zero_cd": 0.017198558896780014,
+      "ardc_cd": 0.017040565609931946,
+      "delta_zero_minus_ardc": 0.00015799328684806824
+    },
+    {
+      "seed": 7,
+      "name": "jc00155.npy",
+      "zero_cd": 0.016867903992533684,
+      "ardc_cd": 0.016669344156980515,
+      "delta_zero_minus_ardc": 0.00019855983555316925
+    },
+    {
+      "seed": 7,
+      "name": "jc00170.npy",
+      "zero_cd": 0.016856085509061813,
+      "ardc_cd": 0.016690244898200035,
+      "delta_zero_minus_ardc": 0.00016584061086177826
+    },
+    {
+      "seed": 7,
+      "name": "kj00109.npy",
+      "zero_cd": 0.015012997202575207,
+      "ardc_cd": 0.015055490657687187,
+      "delta_zero_minus_ardc": -4.249345511198044e-05
+    },
+    {
+      "seed": 7,
+      "name": "kj00125.npy",
+      "zero_cd": 0.014313427731394768,
+      "ardc_cd": 0.014536206610500813,
+      "delta_zero_minus_ardc": -0.00022277887910604477
+    },
+    {
+      "seed": 7,
+      "name": "kj00135.npy",
+      "zero_cd": 0.014882862567901611,
+      "ardc_cd": 0.014788968488574028,
+      "delta_zero_minus_ardc": 9.389407932758331e-05
+    },
+    {
+      "seed": 7,
+      "name": "kj00145.npy",
+      "zero_cd": 0.01456504873931408,
+      "ardc_cd": 0.014462655410170555,
+      "delta_zero_minus_ardc": 0.00010239332914352417
+    },
+    {
+      "seed": 7,
+      "name": "kj00149.npy",
+      "zero_cd": 0.014356743544340134,
+      "ardc_cd": 0.014405321329832077,
+      "delta_zero_minus_ardc": -4.857778549194336e-05
+    },
+    {
+      "seed": 7,
+      "name": "kj00156.npy",
+      "zero_cd": 0.01430422067642212,
+      "ardc_cd": 0.014295271597802639,
+      "delta_zero_minus_ardc": 8.949078619480133e-06
+    },
+    {
+      "seed": 7,
+      "name": "kj00163.npy",
+      "zero_cd": 0.014426513575017452,
+      "ardc_cd": 0.014425361528992653,
+      "delta_zero_minus_ardc": 1.152046024799347e-06
+    },
+    {
+      "seed": 7,
+      "name": "kj00179.npy",
+      "zero_cd": 0.014489341527223587,
+      "ardc_cd": 0.014321452006697655,
+      "delta_zero_minus_ardc": 0.0001678895205259323
+    },
+    {
+      "seed": 7,
+      "name": "lt00104.npy",
+      "zero_cd": 0.01619752123951912,
+      "ardc_cd": 0.01602892205119133,
+      "delta_zero_minus_ardc": 0.0001685991883277893
+    },
+    {
+      "seed": 7,
+      "name": "lt00138.npy",
+      "zero_cd": 0.015830546617507935,
+      "ardc_cd": 0.01590302400290966,
+      "delta_zero_minus_ardc": -7.247738540172577e-05
+    },
+    {
+      "seed": 7,
+      "name": "lt00147.npy",
+      "zero_cd": 0.01527593843638897,
+      "ardc_cd": 0.015241377055644989,
+      "delta_zero_minus_ardc": 3.456138074398041e-05
+    },
+    {
+      "seed": 7,
+      "name": "lt00157.npy",
+      "zero_cd": 0.015516439452767372,
+      "ardc_cd": 0.015566888265311718,
+      "delta_zero_minus_ardc": -5.0448812544345856e-05
+    },
+    {
+      "seed": 7,
+      "name": "lt00168.npy",
+      "zero_cd": 0.015715476125478745,
+      "ardc_cd": 0.015705138444900513,
+      "delta_zero_minus_ardc": 1.0337680578231812e-05
+    },
+    {
+      "seed": 7,
+      "name": "lt00180.npy",
+      "zero_cd": 0.015205994248390198,
+      "ardc_cd": 0.015417175367474556,
+      "delta_zero_minus_ardc": -0.00021118111908435822
+    },
+    {
+      "seed": 7,
+      "name": "lx00105.npy",
+      "zero_cd": 0.015534678474068642,
+      "ardc_cd": 0.015559297055006027,
+      "delta_zero_minus_ardc": -2.461858093738556e-05
+    },
+    {
+      "seed": 7,
+      "name": "lx00108.npy",
+      "zero_cd": 0.01542043685913086,
+      "ardc_cd": 0.015413255430758,
+      "delta_zero_minus_ardc": 7.181428372859955e-06
+    },
+    {
+      "seed": 7,
+      "name": "lx00111.npy",
+      "zero_cd": 0.015437927097082138,
+      "ardc_cd": 0.01532752439379692,
+      "delta_zero_minus_ardc": 0.00011040270328521729
+    },
+    {
+      "seed": 7,
+      "name": "lx00114.npy",
+      "zero_cd": 0.015389278531074524,
+      "ardc_cd": 0.015161164104938507,
+      "delta_zero_minus_ardc": 0.00022811442613601685
+    },
+    {
+      "seed": 7,
+      "name": "lx00115.npy",
+      "zero_cd": 0.01516539603471756,
+      "ardc_cd": 0.015141932293772697,
+      "delta_zero_minus_ardc": 2.3463740944862366e-05
+    },
+    {
+      "seed": 7,
+      "name": "lx00121.npy",
+      "zero_cd": 0.01569819264113903,
+      "ardc_cd": 0.015743739902973175,
+      "delta_zero_minus_ardc": -4.554726183414459e-05
+    },
+    {
+      "seed": 7,
+      "name": "lx00125.npy",
+      "zero_cd": 0.01518575195223093,
+      "ardc_cd": 0.01521387416869402,
+      "delta_zero_minus_ardc": -2.812221646308899e-05
+    },
+    {
+      "seed": 7,
+      "name": "lx00131.npy",
+      "zero_cd": 0.01506906095892191,
+      "ardc_cd": 0.015138634480535984,
+      "delta_zero_minus_ardc": -6.957352161407471e-05
+    },
+    {
+      "seed": 7,
+      "name": "lx00134.npy",
+      "zero_cd": 0.015388526022434235,
+      "ardc_cd": 0.015311635099351406,
+      "delta_zero_minus_ardc": 7.689092308282852e-05
+    },
+    {
+      "seed": 7,
+      "name": "lx00142.npy",
+      "zero_cd": 0.014886517077684402,
+      "ardc_cd": 0.014742551371455193,
+      "delta_zero_minus_ardc": 0.0001439657062292099
+    },
+    {
+      "seed": 7,
+      "name": "lx00150.npy",
+      "zero_cd": 0.014860154129564762,
+      "ardc_cd": 0.01467754878103733,
+      "delta_zero_minus_ardc": 0.0001826053485274315
+    },
+    {
+      "seed": 7,
+      "name": "lx00173.npy",
+      "zero_cd": 0.014684632420539856,
+      "ardc_cd": 0.014721168205142021,
+      "delta_zero_minus_ardc": -3.653578460216522e-05
+    },
+    {
+      "seed": 7,
+      "name": "lx00180.npy",
+      "zero_cd": 0.015042535960674286,
+      "ardc_cd": 0.014661873690783978,
+      "delta_zero_minus_ardc": 0.0003806622698903084
+    },
+    {
+      "seed": 7,
+      "name": "xd00109.npy",
+      "zero_cd": 0.01721268519759178,
+      "ardc_cd": 0.01720081828534603,
+      "delta_zero_minus_ardc": 1.1866912245750427e-05
+    },
+    {
+      "seed": 7,
+      "name": "xd00113.npy",
+      "zero_cd": 0.017035117372870445,
+      "ardc_cd": 0.01704745553433895,
+      "delta_zero_minus_ardc": -1.233816146850586e-05
+    },
+    {
+      "seed": 7,
+      "name": "xd00115.npy",
+      "zero_cd": 0.017190277576446533,
+      "ardc_cd": 0.017294224351644516,
+      "delta_zero_minus_ardc": -0.00010394677519798279
+    },
+    {
+      "seed": 7,
+      "name": "xd00127.npy",
+      "zero_cd": 0.017470398917794228,
+      "ardc_cd": 0.017543816938996315,
+      "delta_zero_minus_ardc": -7.34180212020874e-05
+    },
+    {
+      "seed": 7,
+      "name": "xd00134.npy",
+      "zero_cd": 0.01722651720046997,
+      "ardc_cd": 0.017429569736123085,
+      "delta_zero_minus_ardc": -0.00020305253565311432
+    },
+    {
+      "seed": 7,
+      "name": "xd00141.npy",
+      "zero_cd": 0.016981691122055054,
+      "ardc_cd": 0.017240429297089577,
+      "delta_zero_minus_ardc": -0.000258738175034523
+    },
+    {
+      "seed": 7,
+      "name": "xd00145.npy",
+      "zero_cd": 0.017509639263153076,
+      "ardc_cd": 0.01764676347374916,
+      "delta_zero_minus_ardc": -0.0001371242105960846
+    },
+    {
+      "seed": 7,
+      "name": "xd00157.npy",
+      "zero_cd": 0.017068535089492798,
+      "ardc_cd": 0.017196768894791603,
+      "delta_zero_minus_ardc": -0.00012823380529880524
+    },
+    {
+      "seed": 7,
+      "name": "xd00164.npy",
+      "zero_cd": 0.025801897048950195,
+      "ardc_cd": 0.025678057223558426,
+      "delta_zero_minus_ardc": 0.0001238398253917694
+    },
+    {
+      "seed": 7,
+      "name": "xd00169.npy",
+      "zero_cd": 0.017232399433851242,
+      "ardc_cd": 0.017344798892736435,
+      "delta_zero_minus_ardc": -0.00011239945888519287
+    },
+    {
+      "seed": 13,
+      "name": "aj00103.npy",
+      "zero_cd": 0.015800841152668,
+      "ardc_cd": 0.015745263546705246,
+      "delta_zero_minus_ardc": 5.5577605962753296e-05
+    },
+    {
+      "seed": 13,
+      "name": "aj00111.npy",
+      "zero_cd": 0.01569971814751625,
+      "ardc_cd": 0.015577464364469051,
+      "delta_zero_minus_ardc": 0.00012225378304719925
+    },
+    {
+      "seed": 13,
+      "name": "aj00119.npy",
+      "zero_cd": 0.015752257779240608,
+      "ardc_cd": 0.015880778431892395,
+      "delta_zero_minus_ardc": -0.0001285206526517868
+    },
+    {
+      "seed": 13,
+      "name": "aj00122.npy",
+      "zero_cd": 0.015282061882317066,
+      "ardc_cd": 0.015375279821455479,
+      "delta_zero_minus_ardc": -9.321793913841248e-05
+    },
+    {
+      "seed": 13,
+      "name": "aj00127.npy",
+      "zero_cd": 0.015720032155513763,
+      "ardc_cd": 0.015761680901050568,
+      "delta_zero_minus_ardc": -4.16487455368042e-05
+    },
+    {
+      "seed": 13,
+      "name": "aj00129.npy",
+      "zero_cd": 0.016286611557006836,
+      "ardc_cd": 0.016225997358560562,
+      "delta_zero_minus_ardc": 6.0614198446273804e-05
+    },
+    {
+      "seed": 13,
+      "name": "aj00136.npy",
+      "zero_cd": 0.015603715553879738,
+      "ardc_cd": 0.015684325248003006,
+      "delta_zero_minus_ardc": -8.060969412326813e-05
+    },
+    {
+      "seed": 13,
+      "name": "aj00162.npy",
+      "zero_cd": 0.015715772286057472,
+      "ardc_cd": 0.015636108815670013,
+      "delta_zero_minus_ardc": 7.96634703874588e-05
+    },
+    {
+      "seed": 13,
+      "name": "aj00170.npy",
+      "zero_cd": 0.016113463789224625,
+      "ardc_cd": 0.016245830804109573,
+      "delta_zero_minus_ardc": -0.00013236701488494873
+    },
+    {
+      "seed": 13,
+      "name": "aj00172.npy",
+      "zero_cd": 0.016362037509679794,
+      "ardc_cd": 0.0164785198867321,
+      "delta_zero_minus_ardc": -0.00011648237705230713
+    },
+    {
+      "seed": 13,
+      "name": "aj00174.npy",
+      "zero_cd": 0.016163773834705353,
+      "ardc_cd": 0.015938572585582733,
+      "delta_zero_minus_ardc": 0.00022520124912261963
+    },
+    {
+      "seed": 13,
+      "name": "cs00114.npy",
+      "zero_cd": 0.015023731626570225,
+      "ardc_cd": 0.014809111133217812,
+      "delta_zero_minus_ardc": 0.00021462049335241318
+    },
+    {
+      "seed": 13,
+      "name": "cs00116.npy",
+      "zero_cd": 0.01525031216442585,
+      "ardc_cd": 0.015205162577331066,
+      "delta_zero_minus_ardc": 4.514958709478378e-05
+    },
+    {
+      "seed": 13,
+      "name": "cs00117.npy",
+      "zero_cd": 0.015186887234449387,
+      "ardc_cd": 0.015237824060022831,
+      "delta_zero_minus_ardc": -5.0936825573444366e-05
+    },
+    {
+      "seed": 13,
+      "name": "cs00119.npy",
+      "zero_cd": 0.01505503710359335,
+      "ardc_cd": 0.014892403036355972,
+      "delta_zero_minus_ardc": 0.00016263406723737717
+    },
+    {
+      "seed": 13,
+      "name": "cs00120.npy",
+      "zero_cd": 0.015022587031126022,
+      "ardc_cd": 0.01489320769906044,
+      "delta_zero_minus_ardc": 0.00012937933206558228
+    },
+    {
+      "seed": 13,
+      "name": "cs00123.npy",
+      "zero_cd": 0.015136642381548882,
+      "ardc_cd": 0.01500694453716278,
+      "delta_zero_minus_ardc": 0.00012969784438610077
+    },
+    {
+      "seed": 13,
+      "name": "cs00126.npy",
+      "zero_cd": 0.01570935733616352,
+      "ardc_cd": 0.015399533323943615,
+      "delta_zero_minus_ardc": 0.00030982401221990585
+    },
+    {
+      "seed": 13,
+      "name": "cs00132.npy",
+      "zero_cd": 0.015659261494874954,
+      "ardc_cd": 0.015786195173859596,
+      "delta_zero_minus_ardc": -0.00012693367898464203
+    },
+    {
+      "seed": 13,
+      "name": "cs00142.npy",
+      "zero_cd": 0.015003656968474388,
+      "ardc_cd": 0.015143406577408314,
+      "delta_zero_minus_ardc": -0.00013974960893392563
+    },
+    {
+      "seed": 13,
+      "name": "cs00145.npy",
+      "zero_cd": 0.015027165412902832,
+      "ardc_cd": 0.014940153807401657,
+      "delta_zero_minus_ardc": 8.701160550117493e-05
+    },
+    {
+      "seed": 13,
+      "name": "cs00151.npy",
+      "zero_cd": 0.01521530095487833,
+      "ardc_cd": 0.015030859969556332,
+      "delta_zero_minus_ardc": 0.0001844409853219986
+    },
+    {
+      "seed": 13,
+      "name": "cs00152.npy",
+      "zero_cd": 0.014845763333141804,
+      "ardc_cd": 0.014837137423455715,
+      "delta_zero_minus_ardc": 8.625909686088562e-06
+    },
+    {
+      "seed": 13,
+      "name": "cs00154.npy",
+      "zero_cd": 0.015352449379861355,
+      "ardc_cd": 0.01544936466962099,
+      "delta_zero_minus_ardc": -9.691528975963593e-05
+    },
+    {
+      "seed": 13,
+      "name": "cs00157.npy",
+      "zero_cd": 0.015035899356007576,
+      "ardc_cd": 0.014972416684031487,
+      "delta_zero_minus_ardc": 6.348267197608948e-05
+    },
+    {
+      "seed": 13,
+      "name": "cs00159.npy",
+      "zero_cd": 0.014891920611262321,
+      "ardc_cd": 0.014905896037817001,
+      "delta_zero_minus_ardc": -1.397542655467987e-05
+    },
+    {
+      "seed": 13,
+      "name": "cs00163.npy",
+      "zero_cd": 0.01488240621984005,
+      "ardc_cd": 0.014826063066720963,
+      "delta_zero_minus_ardc": 5.634315311908722e-05
+    },
+    {
+      "seed": 13,
+      "name": "cs00173.npy",
+      "zero_cd": 0.015034062787890434,
+      "ardc_cd": 0.014933541417121887,
+      "delta_zero_minus_ardc": 0.00010052137076854706
+    },
+    {
+      "seed": 13,
+      "name": "cs00180.npy",
+      "zero_cd": 0.01499604620039463,
+      "ardc_cd": 0.015037482604384422,
+      "delta_zero_minus_ardc": -4.143640398979187e-05
+    },
+    {
+      "seed": 13,
+      "name": "dg00102.npy",
+      "zero_cd": 0.01651674695312977,
+      "ardc_cd": 0.01648739166557789,
+      "delta_zero_minus_ardc": 2.9355287551879883e-05
+    },
+    {
+      "seed": 13,
+      "name": "dg00114.npy",
+      "zero_cd": 0.015832867473363876,
+      "ardc_cd": 0.01569891721010208,
+      "delta_zero_minus_ardc": 0.00013395026326179504
+    },
+    {
+      "seed": 13,
+      "name": "dg00124.npy",
+      "zero_cd": 0.015737667679786682,
+      "ardc_cd": 0.015520094893872738,
+      "delta_zero_minus_ardc": 0.00021757278591394424
+    },
+    {
+      "seed": 13,
+      "name": "dg00125.npy",
+      "zero_cd": 0.016044916585087776,
+      "ardc_cd": 0.015802014619112015,
+      "delta_zero_minus_ardc": 0.00024290196597576141
+    },
+    {
+      "seed": 13,
+      "name": "dg00128.npy",
+      "zero_cd": 0.016121838241815567,
+      "ardc_cd": 0.016125842928886414,
+      "delta_zero_minus_ardc": -4.004687070846558e-06
+    },
+    {
+      "seed": 13,
+      "name": "dg00130.npy",
+      "zero_cd": 0.015279741957783699,
+      "ardc_cd": 0.015161456540226936,
+      "delta_zero_minus_ardc": 0.0001182854175567627
+    },
+    {
+      "seed": 13,
+      "name": "dg00131.npy",
+      "zero_cd": 0.015807509422302246,
+      "ardc_cd": 0.01583167351782322,
+      "delta_zero_minus_ardc": -2.4164095520973206e-05
+    },
+    {
+      "seed": 13,
+      "name": "dg00143.npy",
+      "zero_cd": 0.01606886088848114,
+      "ardc_cd": 0.015889903530478477,
+      "delta_zero_minus_ardc": 0.00017895735800266266
+    },
+    {
+      "seed": 13,
+      "name": "dg00153.npy",
+      "zero_cd": 0.01628827676177025,
+      "ardc_cd": 0.016244452446699142,
+      "delta_zero_minus_ardc": 4.382431507110596e-05
+    },
+    {
+      "seed": 13,
+      "name": "dg00158.npy",
+      "zero_cd": 0.015910133719444275,
+      "ardc_cd": 0.01571701280772686,
+      "delta_zero_minus_ardc": 0.00019312091171741486
+    },
+    {
+      "seed": 13,
+      "name": "dm00414.npy",
+      "zero_cd": 0.016303902491927147,
+      "ardc_cd": 0.01666746661067009,
+      "delta_zero_minus_ardc": -0.0003635641187429428
+    },
+    {
+      "seed": 13,
+      "name": "dm00420.npy",
+      "zero_cd": 0.01678883098065853,
+      "ardc_cd": 0.016754213720560074,
+      "delta_zero_minus_ardc": 3.4617260098457336e-05
+    },
+    {
+      "seed": 13,
+      "name": "dm00427.npy",
+      "zero_cd": 0.016695426777005196,
+      "ardc_cd": 0.016849102452397346,
+      "delta_zero_minus_ardc": -0.00015367567539215088
+    },
+    {
+      "seed": 13,
+      "name": "dm00428.npy",
+      "zero_cd": 0.01650240272283554,
+      "ardc_cd": 0.016788385808467865,
+      "delta_zero_minus_ardc": -0.0002859830856323242
+    },
+    {
+      "seed": 13,
+      "name": "dm00437.npy",
+      "zero_cd": 0.016858994960784912,
+      "ardc_cd": 0.01674986630678177,
+      "delta_zero_minus_ardc": 0.00010912865400314331
+    },
+    {
+      "seed": 13,
+      "name": "dm00459.npy",
+      "zero_cd": 0.016223687678575516,
+      "ardc_cd": 0.01680176332592964,
+      "delta_zero_minus_ardc": -0.000578075647354126
+    },
+    {
+      "seed": 13,
+      "name": "dm00461.npy",
+      "zero_cd": 0.016229085624217987,
+      "ardc_cd": 0.016767702996730804,
+      "delta_zero_minus_ardc": -0.0005386173725128174
+    },
+    {
+      "seed": 13,
+      "name": "gd00110.npy",
+      "zero_cd": 0.015237114392220974,
+      "ardc_cd": 0.015181796625256538,
+      "delta_zero_minus_ardc": 5.531776696443558e-05
+    },
+    {
+      "seed": 13,
+      "name": "gd00115.npy",
+      "zero_cd": 0.01484319381415844,
+      "ardc_cd": 0.014848018996417522,
+      "delta_zero_minus_ardc": -4.825182259082794e-06
+    },
+    {
+      "seed": 13,
+      "name": "gd00126.npy",
+      "zero_cd": 0.014838186092674732,
+      "ardc_cd": 0.015055093914270401,
+      "delta_zero_minus_ardc": -0.0002169078215956688
+    },
+    {
+      "seed": 13,
+      "name": "gd00144.npy",
+      "zero_cd": 0.014857846312224865,
+      "ardc_cd": 0.014948726631700993,
+      "delta_zero_minus_ardc": -9.088031947612762e-05
+    },
+    {
+      "seed": 13,
+      "name": "gd00150.npy",
+      "zero_cd": 0.0148710822686553,
+      "ardc_cd": 0.0147700859233737,
+      "delta_zero_minus_ardc": 0.00010099634528160095
+    },
+    {
+      "seed": 13,
+      "name": "gd00174.npy",
+      "zero_cd": 0.014754462987184525,
+      "ardc_cd": 0.014767633751034737,
+      "delta_zero_minus_ardc": -1.3170763850212097e-05
+    },
+    {
+      "seed": 13,
+      "name": "jc00124.npy",
+      "zero_cd": 0.01673044264316559,
+      "ardc_cd": 0.016871172934770584,
+      "delta_zero_minus_ardc": -0.00014073029160499573
+    },
+    {
+      "seed": 13,
+      "name": "jc00125.npy",
+      "zero_cd": 0.01684572547674179,
+      "ardc_cd": 0.016972217708826065,
+      "delta_zero_minus_ardc": -0.0001264922320842743
+    },
+    {
+      "seed": 13,
+      "name": "jc00126.npy",
+      "zero_cd": 0.017196111381053925,
+      "ardc_cd": 0.017248403280973434,
+      "delta_zero_minus_ardc": -5.229189991950989e-05
+    },
+    {
+      "seed": 13,
+      "name": "jc00130.npy",
+      "zero_cd": 0.01694168895483017,
+      "ardc_cd": 0.017037589102983475,
+      "delta_zero_minus_ardc": -9.590014815330505e-05
+    },
+    {
+      "seed": 13,
+      "name": "jc00132.npy",
+      "zero_cd": 0.017173457890748978,
+      "ardc_cd": 0.017324797809123993,
+      "delta_zero_minus_ardc": -0.00015133991837501526
+    },
+    {
+      "seed": 13,
+      "name": "jc00143.npy",
+      "zero_cd": 0.017339404672384262,
+      "ardc_cd": 0.01741303876042366,
+      "delta_zero_minus_ardc": -7.36340880393982e-05
+    },
+    {
+      "seed": 13,
+      "name": "jc00163.npy",
+      "zero_cd": 0.017073366791009903,
+      "ardc_cd": 0.017463263124227524,
+      "delta_zero_minus_ardc": -0.00038989633321762085
+    },
+    {
+      "seed": 13,
+      "name": "jc00179.npy",
+      "zero_cd": 0.0169981662184,
+      "ardc_cd": 0.016936045140028,
+      "delta_zero_minus_ardc": 6.212107837200165e-05
+    },
+    {
+      "seed": 13,
+      "name": "kj00111.npy",
+      "zero_cd": 0.014881356619298458,
+      "ardc_cd": 0.014720451086759567,
+      "delta_zero_minus_ardc": 0.00016090553253889084
+    },
+    {
+      "seed": 13,
+      "name": "kj00124.npy",
+      "zero_cd": 0.014769347384572029,
+      "ardc_cd": 0.01468365453183651,
+      "delta_zero_minus_ardc": 8.569285273551941e-05
+    },
+    {
+      "seed": 13,
+      "name": "kj00138.npy",
+      "zero_cd": 0.014796704053878784,
+      "ardc_cd": 0.014563408680260181,
+      "delta_zero_minus_ardc": 0.00023329537361860275
+    },
+    {
+      "seed": 13,
+      "name": "kj00151.npy",
+      "zero_cd": 0.014730934053659439,
+      "ardc_cd": 0.01483544334769249,
+      "delta_zero_minus_ardc": -0.00010450929403305054
+    },
+    {
+      "seed": 13,
+      "name": "lt00137.npy",
+      "zero_cd": 0.015610422007739544,
+      "ardc_cd": 0.015423871576786041,
+      "delta_zero_minus_ardc": 0.00018655043095350266
+    },
+    {
+      "seed": 13,
+      "name": "lt00155.npy",
+      "zero_cd": 0.01687944307923317,
+      "ardc_cd": 0.017006859183311462,
+      "delta_zero_minus_ardc": -0.00012741610407829285
+    },
+    {
+      "seed": 13,
+      "name": "lt00180.npy",
+      "zero_cd": 0.015430426225066185,
+      "ardc_cd": 0.015340318903326988,
+      "delta_zero_minus_ardc": 9.010732173919678e-05
+    },
+    {
+      "seed": 13,
+      "name": "lx00114.npy",
+      "zero_cd": 0.015150599181652069,
+      "ardc_cd": 0.015249923802912235,
+      "delta_zero_minus_ardc": -9.932462126016617e-05
+    },
+    {
+      "seed": 13,
+      "name": "lx00118.npy",
+      "zero_cd": 0.015510344877839088,
+      "ardc_cd": 0.015253915451467037,
+      "delta_zero_minus_ardc": 0.00025642942637205124
+    },
+    {
+      "seed": 13,
+      "name": "lx00142.npy",
+      "zero_cd": 0.014884687960147858,
+      "ardc_cd": 0.01479418482631445,
+      "delta_zero_minus_ardc": 9.050313383340836e-05
+    },
+    {
+      "seed": 13,
+      "name": "lx00143.npy",
+      "zero_cd": 0.015026474371552467,
+      "ardc_cd": 0.014941536821424961,
+      "delta_zero_minus_ardc": 8.493755012750626e-05
+    },
+    {
+      "seed": 13,
+      "name": "lx00164.npy",
+      "zero_cd": 0.014815514907240868,
+      "ardc_cd": 0.01460152119398117,
+      "delta_zero_minus_ardc": 0.00021399371325969696
+    },
+    {
+      "seed": 13,
+      "name": "lx00174.npy",
+      "zero_cd": 0.01488275732845068,
+      "ardc_cd": 0.01484738476574421,
+      "delta_zero_minus_ardc": 3.537256270647049e-05
+    },
+    {
+      "seed": 13,
+      "name": "lx00180.npy",
+      "zero_cd": 0.014846934005618095,
+      "ardc_cd": 0.014807434752583504,
+      "delta_zero_minus_ardc": 3.9499253034591675e-05
+    },
+    {
+      "seed": 13,
+      "name": "xd00138.npy",
+      "zero_cd": 0.017398850992321968,
+      "ardc_cd": 0.01728017069399357,
+      "delta_zero_minus_ardc": 0.00011868029832839966
+    },
+    {
+      "seed": 13,
+      "name": "xd00155.npy",
+      "zero_cd": 0.017254794016480446,
+      "ardc_cd": 0.017018137499690056,
+      "delta_zero_minus_ardc": 0.00023665651679039001
+    },
+    {
+      "seed": 13,
+      "name": "xd00159.npy",
+      "zero_cd": 0.01706749200820923,
+      "ardc_cd": 0.017183657735586166,
+      "delta_zero_minus_ardc": -0.00011616572737693787
+    },
+    {
+      "seed": 13,
+      "name": "xd00161.npy",
+      "zero_cd": 0.01757378876209259,
+      "ardc_cd": 0.017599422484636307,
+      "delta_zero_minus_ardc": -2.563372254371643e-05
+    },
+    {
+      "seed": 13,
+      "name": "xd00169.npy",
+      "zero_cd": 0.017099956050515175,
+      "ardc_cd": 0.017291946336627007,
+      "delta_zero_minus_ardc": -0.00019199028611183167
+    },
+    {
+      "seed": 13,
+      "name": "xd00173.npy",
+      "zero_cd": 0.017165081575512886,
+      "ardc_cd": 0.017056800425052643,
+      "delta_zero_minus_ardc": 0.00010828115046024323
+    },
+    {
+      "seed": 13,
+      "name": "xd00175.npy",
+      "zero_cd": 0.017342455685138702,
+      "ardc_cd": 0.017615780234336853,
+      "delta_zero_minus_ardc": -0.00027332454919815063
+    },
+    {
+      "seed": 21,
+      "name": "aj00109.npy",
+      "zero_cd": 0.015647301450371742,
+      "ardc_cd": 0.01573030650615692,
+      "delta_zero_minus_ardc": -8.300505578517914e-05
+    },
+    {
+      "seed": 21,
+      "name": "aj00117.npy",
+      "zero_cd": 0.017317354679107666,
+      "ardc_cd": 0.017245719209313393,
+      "delta_zero_minus_ardc": 7.163546979427338e-05
+    },
+    {
+      "seed": 21,
+      "name": "aj00137.npy",
+      "zero_cd": 0.015967195853590965,
+      "ardc_cd": 0.015631450340151787,
+      "delta_zero_minus_ardc": 0.00033574551343917847
+    },
+    {
+      "seed": 21,
+      "name": "aj00140.npy",
+      "zero_cd": 0.015616057440638542,
+      "ardc_cd": 0.015726212412118912,
+      "delta_zero_minus_ardc": -0.00011015497148036957
+    },
+    {
+      "seed": 21,
+      "name": "aj00154.npy",
+      "zero_cd": 0.016044672578573227,
+      "ardc_cd": 0.015828412026166916,
+      "delta_zero_minus_ardc": 0.00021626055240631104
+    },
+    {
+      "seed": 21,
+      "name": "aj00157.npy",
+      "zero_cd": 0.015979807823896408,
+      "ardc_cd": 0.016080781817436218,
+      "delta_zero_minus_ardc": -0.00010097399353981018
+    },
+    {
+      "seed": 21,
+      "name": "cs00102.npy",
+      "zero_cd": 0.01498422771692276,
+      "ardc_cd": 0.01489897258579731,
+      "delta_zero_minus_ardc": 8.525513112545013e-05
+    },
+    {
+      "seed": 21,
+      "name": "cs00104.npy",
+      "zero_cd": 0.015439781360328197,
+      "ardc_cd": 0.015302915126085281,
+      "delta_zero_minus_ardc": 0.0001368662342429161
+    },
+    {
+      "seed": 21,
+      "name": "cs00116.npy",
+      "zero_cd": 0.01540940348058939,
+      "ardc_cd": 0.015408702194690704,
+      "delta_zero_minus_ardc": 7.012858986854553e-07
+    },
+    {
+      "seed": 21,
+      "name": "cs00135.npy",
+      "zero_cd": 0.014823385514318943,
+      "ardc_cd": 0.014740724116563797,
+      "delta_zero_minus_ardc": 8.266139775514603e-05
+    },
+    {
+      "seed": 21,
+      "name": "cs00156.npy",
+      "zero_cd": 0.014822147786617279,
+      "ardc_cd": 0.01486437488347292,
+      "delta_zero_minus_ardc": -4.222709685564041e-05
+    },
+    {
+      "seed": 21,
+      "name": "cs00167.npy",
+      "zero_cd": 0.014849580824375153,
+      "ardc_cd": 0.014818085357546806,
+      "delta_zero_minus_ardc": 3.149546682834625e-05
+    },
+    {
+      "seed": 21,
+      "name": "cs00172.npy",
+      "zero_cd": 0.01520990114659071,
+      "ardc_cd": 0.01516494620591402,
+      "delta_zero_minus_ardc": 4.495494067668915e-05
+    },
+    {
+      "seed": 21,
+      "name": "dg00102.npy",
+      "zero_cd": 0.01682119444012642,
+      "ardc_cd": 0.01661728136241436,
+      "delta_zero_minus_ardc": 0.00020391307771205902
+    },
+    {
+      "seed": 21,
+      "name": "dg00103.npy",
+      "zero_cd": 0.0157400444149971,
+      "ardc_cd": 0.01582290045917034,
+      "delta_zero_minus_ardc": -8.285604417324066e-05
+    },
+    {
+      "seed": 21,
+      "name": "dg00108.npy",
+      "zero_cd": 0.0155112249776721,
+      "ardc_cd": 0.015521802939474583,
+      "delta_zero_minus_ardc": -1.0577961802482605e-05
+    },
+    {
+      "seed": 21,
+      "name": "dg00114.npy",
+      "zero_cd": 0.015522333793342113,
+      "ardc_cd": 0.015380974858999252,
+      "delta_zero_minus_ardc": 0.00014135893434286118
+    },
+    {
+      "seed": 21,
+      "name": "dg00124.npy",
+      "zero_cd": 0.015853600576519966,
+      "ardc_cd": 0.015761729329824448,
+      "delta_zero_minus_ardc": 9.18712466955185e-05
+    },
+    {
+      "seed": 21,
+      "name": "dg00134.npy",
+      "zero_cd": 0.015851248055696487,
+      "ardc_cd": 0.01579073816537857,
+      "delta_zero_minus_ardc": 6.050989031791687e-05
+    },
+    {
+      "seed": 21,
+      "name": "dg00143.npy",
+      "zero_cd": 0.016087261959910393,
+      "ardc_cd": 0.015925228595733643,
+      "delta_zero_minus_ardc": 0.00016203336417675018
+    },
+    {
+      "seed": 21,
+      "name": "dg00149.npy",
+      "zero_cd": 0.016752995550632477,
+      "ardc_cd": 0.01699499785900116,
+      "delta_zero_minus_ardc": -0.00024200230836868286
+    },
+    {
+      "seed": 21,
+      "name": "dg00162.npy",
+      "zero_cd": 0.01679624617099762,
+      "ardc_cd": 0.016604267060756683,
+      "delta_zero_minus_ardc": 0.00019197911024093628
+    },
+    {
+      "seed": 21,
+      "name": "dg00169.npy",
+      "zero_cd": 0.01603076606988907,
+      "ardc_cd": 0.01637878827750683,
+      "delta_zero_minus_ardc": -0.0003480222076177597
+    },
+    {
+      "seed": 21,
+      "name": "dg00172.npy",
+      "zero_cd": 0.0155646912753582,
+      "ardc_cd": 0.015530119650065899,
+      "delta_zero_minus_ardc": 3.457162529230118e-05
+    },
+    {
+      "seed": 21,
+      "name": "dm00403.npy",
+      "zero_cd": 0.01635099947452545,
+      "ardc_cd": 0.01632070541381836,
+      "delta_zero_minus_ardc": 3.0294060707092285e-05
+    },
+    {
+      "seed": 21,
+      "name": "dm00404.npy",
+      "zero_cd": 0.016395434737205505,
+      "ardc_cd": 0.01629740186035633,
+      "delta_zero_minus_ardc": 9.80328768491745e-05
+    },
+    {
+      "seed": 21,
+      "name": "dm00417.npy",
+      "zero_cd": 0.020376091822981834,
+      "ardc_cd": 0.020947594195604324,
+      "delta_zero_minus_ardc": -0.0005715023726224899
+    },
+    {
+      "seed": 21,
+      "name": "dm00446.npy",
+      "zero_cd": 0.016662973910570145,
+      "ardc_cd": 0.016614217311143875,
+      "delta_zero_minus_ardc": 4.875659942626953e-05
+    },
+    {
+      "seed": 21,
+      "name": "dm00447.npy",
+      "zero_cd": 0.01714242994785309,
+      "ardc_cd": 0.017029713839292526,
+      "delta_zero_minus_ardc": 0.00011271610856056213
+    },
+    {
+      "seed": 21,
+      "name": "dm00458.npy",
+      "zero_cd": 0.016399485990405083,
+      "ardc_cd": 0.01613825187087059,
+      "delta_zero_minus_ardc": 0.0002612341195344925
+    },
+    {
+      "seed": 21,
+      "name": "dm00469.npy",
+      "zero_cd": 0.016856098547577858,
+      "ardc_cd": 0.016922829672694206,
+      "delta_zero_minus_ardc": -6.673112511634827e-05
+    },
+    {
+      "seed": 21,
+      "name": "gd00112.npy",
+      "zero_cd": 0.015044725500047207,
+      "ardc_cd": 0.015012132935225964,
+      "delta_zero_minus_ardc": 3.2592564821243286e-05
+    },
+    {
+      "seed": 21,
+      "name": "gd00114.npy",
+      "zero_cd": 0.015096446499228477,
+      "ardc_cd": 0.014832444489002228,
+      "delta_zero_minus_ardc": 0.0002640020102262497
+    },
+    {
+      "seed": 21,
+      "name": "gd00136.npy",
+      "zero_cd": 0.014983955770730972,
+      "ardc_cd": 0.015100951306521893,
+      "delta_zero_minus_ardc": -0.00011699553579092026
+    },
+    {
+      "seed": 21,
+      "name": "gd00175.npy",
+      "zero_cd": 0.015230057761073112,
+      "ardc_cd": 0.015134297311306,
+      "delta_zero_minus_ardc": 9.576044976711273e-05
+    },
+    {
+      "seed": 21,
+      "name": "gd00176.npy",
+      "zero_cd": 0.014768406748771667,
+      "ardc_cd": 0.014745868742465973,
+      "delta_zero_minus_ardc": 2.253800630569458e-05
+    },
+    {
+      "seed": 21,
+      "name": "jc00113.npy",
+      "zero_cd": 0.017016008496284485,
+      "ardc_cd": 0.017077157273888588,
+      "delta_zero_minus_ardc": -6.114877760410309e-05
+    },
+    {
+      "seed": 21,
+      "name": "jc00115.npy",
+      "zero_cd": 0.016571640968322754,
+      "ardc_cd": 0.016795789822936058,
+      "delta_zero_minus_ardc": -0.00022414885461330414
+    },
+    {
+      "seed": 21,
+      "name": "jc00119.npy",
+      "zero_cd": 0.017163120210170746,
+      "ardc_cd": 0.016926705837249756,
+      "delta_zero_minus_ardc": 0.00023641437292099
+    },
+    {
+      "seed": 21,
+      "name": "jc00120.npy",
+      "zero_cd": 0.017272669821977615,
+      "ardc_cd": 0.0171391349285841,
+      "delta_zero_minus_ardc": 0.00013353489339351654
+    },
+    {
+      "seed": 21,
+      "name": "jc00121.npy",
+      "zero_cd": 0.017033616080880165,
+      "ardc_cd": 0.016874119639396667,
+      "delta_zero_minus_ardc": 0.00015949644148349762
+    },
+    {
+      "seed": 21,
+      "name": "jc00128.npy",
+      "zero_cd": 0.017151003703475,
+      "ardc_cd": 0.017188485711812973,
+      "delta_zero_minus_ardc": -3.748200833797455e-05
+    },
+    {
+      "seed": 21,
+      "name": "jc00132.npy",
+      "zero_cd": 0.01710786297917366,
+      "ardc_cd": 0.017127372324466705,
+      "delta_zero_minus_ardc": -1.9509345293045044e-05
+    },
+    {
+      "seed": 21,
+      "name": "jc00134.npy",
+      "zero_cd": 0.016982998698949814,
+      "ardc_cd": 0.017073797062039375,
+      "delta_zero_minus_ardc": -9.079836308956146e-05
+    },
+    {
+      "seed": 21,
+      "name": "jc00153.npy",
+      "zero_cd": 0.017060037702322006,
+      "ardc_cd": 0.016995970159769058,
+      "delta_zero_minus_ardc": 6.4067542552948e-05
+    },
+    {
+      "seed": 21,
+      "name": "jc00159.npy",
+      "zero_cd": 0.016948536038398743,
+      "ardc_cd": 0.016914375126361847,
+      "delta_zero_minus_ardc": 3.416091203689575e-05
+    },
+    {
+      "seed": 21,
+      "name": "jc00165.npy",
+      "zero_cd": 0.016987040638923645,
+      "ardc_cd": 0.016905736178159714,
+      "delta_zero_minus_ardc": 8.130446076393127e-05
+    },
+    {
+      "seed": 21,
+      "name": "jc00168.npy",
+      "zero_cd": 0.017253350466489792,
+      "ardc_cd": 0.01719241961836815,
+      "delta_zero_minus_ardc": 6.0930848121643066e-05
+    },
+    {
+      "seed": 21,
+      "name": "jc00169.npy",
+      "zero_cd": 0.017312003299593925,
+      "ardc_cd": 0.017128977924585342,
+      "delta_zero_minus_ardc": 0.00018302537500858307
+    },
+    {
+      "seed": 21,
+      "name": "jc00170.npy",
+      "zero_cd": 0.01666215807199478,
+      "ardc_cd": 0.016653409227728844,
+      "delta_zero_minus_ardc": 8.748844265937805e-06
+    },
+    {
+      "seed": 21,
+      "name": "jc00175.npy",
+      "zero_cd": 0.016654277220368385,
+      "ardc_cd": 0.016508879140019417,
+      "delta_zero_minus_ardc": 0.0001453980803489685
+    },
+    {
+      "seed": 21,
+      "name": "kj00112.npy",
+      "zero_cd": 0.014716537669301033,
+      "ardc_cd": 0.014633784070611,
+      "delta_zero_minus_ardc": 8.275359869003296e-05
+    },
+    {
+      "seed": 21,
+      "name": "kj00115.npy",
+      "zero_cd": 0.014700992032885551,
+      "ardc_cd": 0.014669855125248432,
+      "delta_zero_minus_ardc": 3.113690763711929e-05
+    },
+    {
+      "seed": 21,
+      "name": "kj00122.npy",
+      "zero_cd": 0.01492567453533411,
+      "ardc_cd": 0.014801064506173134,
+      "delta_zero_minus_ardc": 0.0001246100291609764
+    },
+    {
+      "seed": 21,
+      "name": "kj00165.npy",
+      "zero_cd": 0.014501742087304592,
+      "ardc_cd": 0.014706337824463844,
+      "delta_zero_minus_ardc": -0.00020459573715925217
+    },
+    {
+      "seed": 21,
+      "name": "lt00118.npy",
+      "zero_cd": 0.015538761392235756,
+      "ardc_cd": 0.015361594036221504,
+      "delta_zero_minus_ardc": 0.0001771673560142517
+    },
+    {
+      "seed": 21,
+      "name": "lt00121.npy",
+      "zero_cd": 0.015568575821816921,
+      "ardc_cd": 0.01558508537709713,
+      "delta_zero_minus_ardc": -1.6509555280208588e-05
+    },
+    {
+      "seed": 21,
+      "name": "lt00123.npy",
+      "zero_cd": 0.01570996455848217,
+      "ardc_cd": 0.015610547736287117,
+      "delta_zero_minus_ardc": 9.94168221950531e-05
+    },
+    {
+      "seed": 21,
+      "name": "lt00128.npy",
+      "zero_cd": 0.015549110248684883,
+      "ardc_cd": 0.015419169329106808,
+      "delta_zero_minus_ardc": 0.0001299409195780754
+    },
+    {
+      "seed": 21,
+      "name": "lt00134.npy",
+      "zero_cd": 0.016847454011440277,
+      "ardc_cd": 0.01668526604771614,
+      "delta_zero_minus_ardc": 0.00016218796372413635
+    },
+    {
+      "seed": 21,
+      "name": "lt00136.npy",
+      "zero_cd": 0.016628989949822426,
+      "ardc_cd": 0.016383498907089233,
+      "delta_zero_minus_ardc": 0.00024549104273319244
+    },
+    {
+      "seed": 21,
+      "name": "lt00149.npy",
+      "zero_cd": 0.01527264341711998,
+      "ardc_cd": 0.015325108543038368,
+      "delta_zero_minus_ardc": -5.246512591838837e-05
+    },
+    {
+      "seed": 21,
+      "name": "lt00157.npy",
+      "zero_cd": 0.015799978747963905,
+      "ardc_cd": 0.015598089434206486,
+      "delta_zero_minus_ardc": 0.00020188931375741959
+    },
+    {
+      "seed": 21,
+      "name": "lt00174.npy",
+      "zero_cd": 0.016256941482424736,
+      "ardc_cd": 0.01621484011411667,
+      "delta_zero_minus_ardc": 4.210136830806732e-05
+    },
+    {
+      "seed": 21,
+      "name": "lx00102.npy",
+      "zero_cd": 0.015599613077938557,
+      "ardc_cd": 0.015626126900315285,
+      "delta_zero_minus_ardc": -2.6513822376728058e-05
+    },
+    {
+      "seed": 21,
+      "name": "lx00115.npy",
+      "zero_cd": 0.015240518376231194,
+      "ardc_cd": 0.01505622174590826,
+      "delta_zero_minus_ardc": 0.0001842966303229332
+    },
+    {
+      "seed": 21,
+      "name": "lx00126.npy",
+      "zero_cd": 0.015405401587486267,
+      "ardc_cd": 0.015532344579696655,
+      "delta_zero_minus_ardc": -0.00012694299221038818
+    },
+    {
+      "seed": 21,
+      "name": "lx00129.npy",
+      "zero_cd": 0.015183222480118275,
+      "ardc_cd": 0.015135027468204498,
+      "delta_zero_minus_ardc": 4.81950119137764e-05
+    },
+    {
+      "seed": 21,
+      "name": "lx00132.npy",
+      "zero_cd": 0.015552932396531105,
+      "ardc_cd": 0.015466160140931606,
+      "delta_zero_minus_ardc": 8.677225559949875e-05
+    },
+    {
+      "seed": 21,
+      "name": "lx00136.npy",
+      "zero_cd": 0.01531821396201849,
+      "ardc_cd": 0.015192074701189995,
+      "delta_zero_minus_ardc": 0.00012613926082849503
+    },
+    {
+      "seed": 21,
+      "name": "lx00137.npy",
+      "zero_cd": 0.01567784883081913,
+      "ardc_cd": 0.015060928650200367,
+      "delta_zero_minus_ardc": 0.000616920180618763
+    },
+    {
+      "seed": 21,
+      "name": "lx00138.npy",
+      "zero_cd": 0.015288326889276505,
+      "ardc_cd": 0.015085764229297638,
+      "delta_zero_minus_ardc": 0.00020256265997886658
+    },
+    {
+      "seed": 21,
+      "name": "lx00145.npy",
+      "zero_cd": 0.014993223361670971,
+      "ardc_cd": 0.014695233665406704,
+      "delta_zero_minus_ardc": 0.00029798969626426697
+    },
+    {
+      "seed": 21,
+      "name": "lx00178.npy",
+      "zero_cd": 0.014601875096559525,
+      "ardc_cd": 0.01456115860491991,
+      "delta_zero_minus_ardc": 4.0716491639614105e-05
+    },
+    {
+      "seed": 21,
+      "name": "lx00179.npy",
+      "zero_cd": 0.014855705201625824,
+      "ardc_cd": 0.014831757172942162,
+      "delta_zero_minus_ardc": 2.3948028683662415e-05
+    },
+    {
+      "seed": 21,
+      "name": "lx00180.npy",
+      "zero_cd": 0.014844845049083233,
+      "ardc_cd": 0.014655571430921555,
+      "delta_zero_minus_ardc": 0.00018927361816167831
+    },
+    {
+      "seed": 21,
+      "name": "xd00111.npy",
+      "zero_cd": 0.017420168966054916,
+      "ardc_cd": 0.01729460060596466,
+      "delta_zero_minus_ardc": 0.00012556836009025574
+    },
+    {
+      "seed": 21,
+      "name": "xd00131.npy",
+      "zero_cd": 0.017408885061740875,
+      "ardc_cd": 0.01740143448114395,
+      "delta_zero_minus_ardc": 7.450580596923828e-06
+    },
+    {
+      "seed": 21,
+      "name": "xd00148.npy",
+      "zero_cd": 0.016897685825824738,
+      "ardc_cd": 0.016937855631113052,
+      "delta_zero_minus_ardc": -4.016980528831482e-05
+    },
+    {
+      "seed": 21,
+      "name": "xd00153.npy",
+      "zero_cd": 0.017167922109365463,
+      "ardc_cd": 0.017185688018798828,
+      "delta_zero_minus_ardc": -1.7765909433364868e-05
+    },
+    {
+      "seed": 21,
+      "name": "xd00161.npy",
+      "zero_cd": 0.017455726861953735,
+      "ardc_cd": 0.017439257353544235,
+      "delta_zero_minus_ardc": 1.6469508409500122e-05
+    },
+    {
+      "seed": 42,
+      "name": "aj00102.npy",
+      "zero_cd": 0.015672359615564346,
+      "ardc_cd": 0.015833944082260132,
+      "delta_zero_minus_ardc": -0.00016158446669578552
+    },
+    {
+      "seed": 42,
+      "name": "aj00111.npy",
+      "zero_cd": 0.015570798888802528,
+      "ardc_cd": 0.015420452691614628,
+      "delta_zero_minus_ardc": 0.00015034619718790054
+    },
+    {
+      "seed": 42,
+      "name": "aj00116.npy",
+      "zero_cd": 0.01576301082968712,
+      "ardc_cd": 0.015745840966701508,
+      "delta_zero_minus_ardc": 1.7169862985610962e-05
+    },
+    {
+      "seed": 42,
+      "name": "aj00135.npy",
+      "zero_cd": 0.01623774692416191,
+      "ardc_cd": 0.016019128262996674,
+      "delta_zero_minus_ardc": 0.00021861866116523743
+    },
+    {
+      "seed": 42,
+      "name": "aj00142.npy",
+      "zero_cd": 0.01596786081790924,
+      "ardc_cd": 0.015801861882209778,
+      "delta_zero_minus_ardc": 0.0001659989356994629
+    },
+    {
+      "seed": 42,
+      "name": "aj00143.npy",
+      "zero_cd": 0.016113748773932457,
+      "ardc_cd": 0.01603773981332779,
+      "delta_zero_minus_ardc": 7.600896060466766e-05
+    },
+    {
+      "seed": 42,
+      "name": "aj00150.npy",
+      "zero_cd": 0.01710638403892517,
+      "ardc_cd": 0.017349377274513245,
+      "delta_zero_minus_ardc": -0.00024299323558807373
+    },
+    {
+      "seed": 42,
+      "name": "aj00158.npy",
+      "zero_cd": 0.015553739853203297,
+      "ardc_cd": 0.015667935833334923,
+      "delta_zero_minus_ardc": -0.00011419598013162613
+    },
+    {
+      "seed": 42,
+      "name": "aj00164.npy",
+      "zero_cd": 0.015541010536253452,
+      "ardc_cd": 0.015497305430471897,
+      "delta_zero_minus_ardc": 4.3705105781555176e-05
+    },
+    {
+      "seed": 42,
+      "name": "aj00170.npy",
+      "zero_cd": 0.01602562889456749,
+      "ardc_cd": 0.01614556647837162,
+      "delta_zero_minus_ardc": -0.00011993758380413055
+    },
+    {
+      "seed": 42,
+      "name": "aj00177.npy",
+      "zero_cd": 0.015692638233304024,
+      "ardc_cd": 0.015661748126149178,
+      "delta_zero_minus_ardc": 3.089010715484619e-05
+    },
+    {
+      "seed": 42,
+      "name": "cs00123.npy",
+      "zero_cd": 0.015205981209874153,
+      "ardc_cd": 0.01505456306040287,
+      "delta_zero_minus_ardc": 0.00015141814947128296
+    },
+    {
+      "seed": 42,
+      "name": "cs00134.npy",
+      "zero_cd": 0.015199552290141582,
+      "ardc_cd": 0.015177703462541103,
+      "delta_zero_minus_ardc": 2.1848827600479126e-05
+    },
+    {
+      "seed": 42,
+      "name": "cs00138.npy",
+      "zero_cd": 0.015372110530734062,
+      "ardc_cd": 0.015709765255451202,
+      "delta_zero_minus_ardc": -0.0003376547247171402
+    },
+    {
+      "seed": 42,
+      "name": "cs00158.npy",
+      "zero_cd": 0.014872245490550995,
+      "ardc_cd": 0.014859837479889393,
+      "delta_zero_minus_ardc": 1.240801066160202e-05
+    },
+    {
+      "seed": 42,
+      "name": "cs00162.npy",
+      "zero_cd": 0.014851422049105167,
+      "ardc_cd": 0.014720004983246326,
+      "delta_zero_minus_ardc": 0.00013141706585884094
+    },
+    {
+      "seed": 42,
+      "name": "dg00107.npy",
+      "zero_cd": 0.015683498233556747,
+      "ardc_cd": 0.01571957767009735,
+      "delta_zero_minus_ardc": -3.607943654060364e-05
+    },
+    {
+      "seed": 42,
+      "name": "dg00117.npy",
+      "zero_cd": 0.016905557364225388,
+      "ardc_cd": 0.01695910282433033,
+      "delta_zero_minus_ardc": -5.354546010494232e-05
+    },
+    {
+      "seed": 42,
+      "name": "dg00122.npy",
+      "zero_cd": 0.015555452555418015,
+      "ardc_cd": 0.01561540737748146,
+      "delta_zero_minus_ardc": -5.9954822063446045e-05
+    },
+    {
+      "seed": 42,
+      "name": "dg00135.npy",
+      "zero_cd": 0.01534439716488123,
+      "ardc_cd": 0.015379900112748146,
+      "delta_zero_minus_ardc": -3.5502947866916656e-05
+    },
+    {
+      "seed": 42,
+      "name": "dg00152.npy",
+      "zero_cd": 0.015690870583057404,
+      "ardc_cd": 0.015608251094818115,
+      "delta_zero_minus_ardc": 8.261948823928833e-05
+    },
+    {
+      "seed": 42,
+      "name": "dm00432.npy",
+      "zero_cd": 0.01674332469701767,
+      "ardc_cd": 0.016431979835033417,
+      "delta_zero_minus_ardc": 0.00031134486198425293
+    },
+    {
+      "seed": 42,
+      "name": "dm00435.npy",
+      "zero_cd": 0.01745101436972618,
+      "ardc_cd": 0.017262835055589676,
+      "delta_zero_minus_ardc": 0.00018817931413650513
+    },
+    {
+      "seed": 42,
+      "name": "dm00446.npy",
+      "zero_cd": 0.01682302914559841,
+      "ardc_cd": 0.016617411747574806,
+      "delta_zero_minus_ardc": 0.00020561739802360535
+    },
+    {
+      "seed": 42,
+      "name": "dm00447.npy",
+      "zero_cd": 0.01723400130867958,
+      "ardc_cd": 0.017289770767092705,
+      "delta_zero_minus_ardc": -5.5769458413124084e-05
+    },
+    {
+      "seed": 42,
+      "name": "dm00450.npy",
+      "zero_cd": 0.01721269078552723,
+      "ardc_cd": 0.016916178166866302,
+      "delta_zero_minus_ardc": 0.0002965126186609268
+    },
+    {
+      "seed": 42,
+      "name": "dm00456.npy",
+      "zero_cd": 0.016635701060295105,
+      "ardc_cd": 0.016543278470635414,
+      "delta_zero_minus_ardc": 9.242258965969086e-05
+    },
+    {
+      "seed": 42,
+      "name": "dm00460.npy",
+      "zero_cd": 0.016697652637958527,
+      "ardc_cd": 0.01651545986533165,
+      "delta_zero_minus_ardc": 0.00018219277262687683
+    },
+    {
+      "seed": 42,
+      "name": "dm00463.npy",
+      "zero_cd": 0.016375264152884483,
+      "ardc_cd": 0.016110006719827652,
+      "delta_zero_minus_ardc": 0.00026525743305683136
+    },
+    {
+      "seed": 42,
+      "name": "dm00473.npy",
+      "zero_cd": 0.01670415699481964,
+      "ardc_cd": 0.016567030921578407,
+      "delta_zero_minus_ardc": 0.00013712607324123383
+    },
+    {
+      "seed": 42,
+      "name": "dm00474.npy",
+      "zero_cd": 0.016701361164450645,
+      "ardc_cd": 0.01680692657828331,
+      "delta_zero_minus_ardc": -0.00010556541383266449
+    },
+    {
+      "seed": 42,
+      "name": "dm00477.npy",
+      "zero_cd": 0.016786182299256325,
+      "ardc_cd": 0.016704034060239792,
+      "delta_zero_minus_ardc": 8.21482390165329e-05
+    },
+    {
+      "seed": 42,
+      "name": "gd00112.npy",
+      "zero_cd": 0.015266388654708862,
+      "ardc_cd": 0.015075800940394402,
+      "delta_zero_minus_ardc": 0.00019058771431446075
+    },
+    {
+      "seed": 42,
+      "name": "gd00145.npy",
+      "zero_cd": 0.014841027557849884,
+      "ardc_cd": 0.01482766680419445,
+      "delta_zero_minus_ardc": 1.3360753655433655e-05
+    },
+    {
+      "seed": 42,
+      "name": "gd00151.npy",
+      "zero_cd": 0.014679059386253357,
+      "ardc_cd": 0.014631984755396843,
+      "delta_zero_minus_ardc": 4.707463085651398e-05
+    },
+    {
+      "seed": 42,
+      "name": "jc00110.npy",
+      "zero_cd": 0.0170515775680542,
+      "ardc_cd": 0.017026137560606003,
+      "delta_zero_minus_ardc": 2.544000744819641e-05
+    },
+    {
+      "seed": 42,
+      "name": "jc00132.npy",
+      "zero_cd": 0.016762929037213326,
+      "ardc_cd": 0.01690770499408245,
+      "delta_zero_minus_ardc": -0.00014477595686912537
+    },
+    {
+      "seed": 42,
+      "name": "jc00137.npy",
+      "zero_cd": 0.017162803560495377,
+      "ardc_cd": 0.017097095027565956,
+      "delta_zero_minus_ardc": 6.570853292942047e-05
+    },
+    {
+      "seed": 42,
+      "name": "jc00151.npy",
+      "zero_cd": 0.01733832061290741,
+      "ardc_cd": 0.017144791781902313,
+      "delta_zero_minus_ardc": 0.00019352883100509644
+    },
+    {
+      "seed": 42,
+      "name": "kj00110.npy",
+      "zero_cd": 0.015000766143202782,
+      "ardc_cd": 0.015043445862829685,
+      "delta_zero_minus_ardc": -4.2679719626903534e-05
+    },
+    {
+      "seed": 42,
+      "name": "kj00111.npy",
+      "zero_cd": 0.01487337239086628,
+      "ardc_cd": 0.014804253354668617,
+      "delta_zero_minus_ardc": 6.911903619766235e-05
+    },
+    {
+      "seed": 42,
+      "name": "kj00120.npy",
+      "zero_cd": 0.01471792720258236,
+      "ardc_cd": 0.014641017653048038,
+      "delta_zero_minus_ardc": 7.690954953432083e-05
+    },
+    {
+      "seed": 42,
+      "name": "kj00122.npy",
+      "zero_cd": 0.01523680705577135,
+      "ardc_cd": 0.01477532833814621,
+      "delta_zero_minus_ardc": 0.00046147871762514114
+    },
+    {
+      "seed": 42,
+      "name": "kj00123.npy",
+      "zero_cd": 0.014987300150096416,
+      "ardc_cd": 0.014558673836290836,
+      "delta_zero_minus_ardc": 0.00042862631380558014
+    },
+    {
+      "seed": 42,
+      "name": "kj00138.npy",
+      "zero_cd": 0.014814501628279686,
+      "ardc_cd": 0.014803526923060417,
+      "delta_zero_minus_ardc": 1.0974705219268799e-05
+    },
+    {
+      "seed": 42,
+      "name": "kj00146.npy",
+      "zero_cd": 0.014983952045440674,
+      "ardc_cd": 0.014506163075566292,
+      "delta_zero_minus_ardc": 0.000477788969874382
+    },
+    {
+      "seed": 42,
+      "name": "kj00148.npy",
+      "zero_cd": 0.014636634849011898,
+      "ardc_cd": 0.014513719826936722,
+      "delta_zero_minus_ardc": 0.00012291502207517624
+    },
+    {
+      "seed": 42,
+      "name": "kj00149.npy",
+      "zero_cd": 0.01479711290448904,
+      "ardc_cd": 0.014761094003915787,
+      "delta_zero_minus_ardc": 3.601890057325363e-05
+    },
+    {
+      "seed": 42,
+      "name": "kj00154.npy",
+      "zero_cd": 0.01441766507923603,
+      "ardc_cd": 0.014401468448340893,
+      "delta_zero_minus_ardc": 1.6196630895137787e-05
+    },
+    {
+      "seed": 42,
+      "name": "kj00155.npy",
+      "zero_cd": 0.01496942713856697,
+      "ardc_cd": 0.014623818919062614,
+      "delta_zero_minus_ardc": 0.0003456082195043564
+    },
+    {
+      "seed": 42,
+      "name": "kj00163.npy",
+      "zero_cd": 0.014472804963588715,
+      "ardc_cd": 0.01434079185128212,
+      "delta_zero_minus_ardc": 0.00013201311230659485
+    },
+    {
+      "seed": 42,
+      "name": "kj00167.npy",
+      "zero_cd": 0.01572473905980587,
+      "ardc_cd": 0.015804342925548553,
+      "delta_zero_minus_ardc": -7.960386574268341e-05
+    },
+    {
+      "seed": 42,
+      "name": "kj00168.npy",
+      "zero_cd": 0.015422194264829159,
+      "ardc_cd": 0.015069142915308475,
+      "delta_zero_minus_ardc": 0.0003530513495206833
+    },
+    {
+      "seed": 42,
+      "name": "kj00173.npy",
+      "zero_cd": 0.014507901854813099,
+      "ardc_cd": 0.014535426162183285,
+      "delta_zero_minus_ardc": -2.7524307370185852e-05
+    },
+    {
+      "seed": 42,
+      "name": "kj00175.npy",
+      "zero_cd": 0.014621193520724773,
+      "ardc_cd": 0.014486528933048248,
+      "delta_zero_minus_ardc": 0.00013466458767652512
+    },
+    {
+      "seed": 42,
+      "name": "lt00123.npy",
+      "zero_cd": 0.015404642559587955,
+      "ardc_cd": 0.015484783798456192,
+      "delta_zero_minus_ardc": -8.014123886823654e-05
+    },
+    {
+      "seed": 42,
+      "name": "lt00126.npy",
+      "zero_cd": 0.016049237921833992,
+      "ardc_cd": 0.016001636162400246,
+      "delta_zero_minus_ardc": 4.760175943374634e-05
+    },
+    {
+      "seed": 42,
+      "name": "lt00149.npy",
+      "zero_cd": 0.015263864770531654,
+      "ardc_cd": 0.015284466557204723,
+      "delta_zero_minus_ardc": -2.0601786673069e-05
+    },
+    {
+      "seed": 42,
+      "name": "lt00151.npy",
+      "zero_cd": 0.015601351857185364,
+      "ardc_cd": 0.015584245324134827,
+      "delta_zero_minus_ardc": 1.710653305053711e-05
+    },
+    {
+      "seed": 42,
+      "name": "lt00157.npy",
+      "zero_cd": 0.01550963893532753,
+      "ardc_cd": 0.015458853915333748,
+      "delta_zero_minus_ardc": 5.0785019993782043e-05
+    },
+    {
+      "seed": 42,
+      "name": "lt00161.npy",
+      "zero_cd": 0.015696406364440918,
+      "ardc_cd": 0.01574026793241501,
+      "delta_zero_minus_ardc": -4.3861567974090576e-05
+    },
+    {
+      "seed": 42,
+      "name": "lt00162.npy",
+      "zero_cd": 0.015560043044388294,
+      "ardc_cd": 0.015589272603392601,
+      "delta_zero_minus_ardc": -2.9229559004306793e-05
+    },
+    {
+      "seed": 42,
+      "name": "lt00168.npy",
+      "zero_cd": 0.015746042132377625,
+      "ardc_cd": 0.015794498845934868,
+      "delta_zero_minus_ardc": -4.845671355724335e-05
+    },
+    {
+      "seed": 42,
+      "name": "lt00174.npy",
+      "zero_cd": 0.016297854483127594,
+      "ardc_cd": 0.01638658344745636,
+      "delta_zero_minus_ardc": -8.872896432876587e-05
+    },
+    {
+      "seed": 42,
+      "name": "lt00177.npy",
+      "zero_cd": 0.01570555754005909,
+      "ardc_cd": 0.01578662171959877,
+      "delta_zero_minus_ardc": -8.106417953968048e-05
+    },
+    {
+      "seed": 42,
+      "name": "lx00101.npy",
+      "zero_cd": 0.015420693904161453,
+      "ardc_cd": 0.01543424092233181,
+      "delta_zero_minus_ardc": -1.354701817035675e-05
+    },
+    {
+      "seed": 42,
+      "name": "lx00108.npy",
+      "zero_cd": 0.015186767093837261,
+      "ardc_cd": 0.015374298207461834,
+      "delta_zero_minus_ardc": -0.00018753111362457275
+    },
+    {
+      "seed": 42,
+      "name": "lx00111.npy",
+      "zero_cd": 0.01541218627244234,
+      "ardc_cd": 0.015390153042972088,
+      "delta_zero_minus_ardc": 2.203322947025299e-05
+    },
+    {
+      "seed": 42,
+      "name": "lx00129.npy",
+      "zero_cd": 0.015205757692456245,
+      "ardc_cd": 0.01524684950709343,
+      "delta_zero_minus_ardc": -4.109181463718414e-05
+    },
+    {
+      "seed": 42,
+      "name": "lx00132.npy",
+      "zero_cd": 0.01570248231291771,
+      "ardc_cd": 0.015459999442100525,
+      "delta_zero_minus_ardc": 0.00024248287081718445
+    },
+    {
+      "seed": 42,
+      "name": "lx00135.npy",
+      "zero_cd": 0.015246166847646236,
+      "ardc_cd": 0.015330411493778229,
+      "delta_zero_minus_ardc": -8.424464613199234e-05
+    },
+    {
+      "seed": 42,
+      "name": "lx00147.npy",
+      "zero_cd": 0.015033003874123096,
+      "ardc_cd": 0.01511961966753006,
+      "delta_zero_minus_ardc": -8.661579340696335e-05
+    },
+    {
+      "seed": 42,
+      "name": "lx00149.npy",
+      "zero_cd": 0.014852667227387428,
+      "ardc_cd": 0.01464361697435379,
+      "delta_zero_minus_ardc": 0.000209050253033638
+    },
+    {
+      "seed": 42,
+      "name": "lx00164.npy",
+      "zero_cd": 0.01475709117949009,
+      "ardc_cd": 0.014507764019072056,
+      "delta_zero_minus_ardc": 0.0002493271604180336
+    },
+    {
+      "seed": 42,
+      "name": "lx00168.npy",
+      "zero_cd": 0.014966792427003384,
+      "ardc_cd": 0.015227824449539185,
+      "delta_zero_minus_ardc": -0.00026103202253580093
+    },
+    {
+      "seed": 42,
+      "name": "xd00102.npy",
+      "zero_cd": 0.01764332875609398,
+      "ardc_cd": 0.01731245592236519,
+      "delta_zero_minus_ardc": 0.0003308728337287903
+    },
+    {
+      "seed": 42,
+      "name": "xd00131.npy",
+      "zero_cd": 0.017622360959649086,
+      "ardc_cd": 0.017536448314785957,
+      "delta_zero_minus_ardc": 8.591264486312866e-05
+    },
+    {
+      "seed": 42,
+      "name": "xd00134.npy",
+      "zero_cd": 0.017419591546058655,
+      "ardc_cd": 0.017537683248519897,
+      "delta_zero_minus_ardc": -0.00011809170246124268
+    },
+    {
+      "seed": 42,
+      "name": "xd00153.npy",
+      "zero_cd": 0.017302321270108223,
+      "ardc_cd": 0.017225895076990128,
+      "delta_zero_minus_ardc": 7.64261931180954e-05
+    },
+    {
+      "seed": 42,
+      "name": "xd00167.npy",
+      "zero_cd": 0.01748434081673622,
+      "ardc_cd": 0.01737932488322258,
+      "delta_zero_minus_ardc": 0.00010501593351364136
+    },
+    {
+      "seed": 42,
+      "name": "xd00172.npy",
+      "zero_cd": 0.01698147878050804,
+      "ardc_cd": 0.01703581213951111,
+      "delta_zero_minus_ardc": -5.4333359003067017e-05
+    }
+  ]
+}

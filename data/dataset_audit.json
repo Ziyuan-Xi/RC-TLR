@@ -1,0 +1,51 @@
+{
+  "conditions": 810,
+  "targets": 810,
+  "meshes": 810,
+  "matched_pairs": 799,
+  "missing_condition": [
+    "aj001.npy",
+    "cs001.npy",
+    "dm004.npy",
+    "gd00160 .npy",
+    "jc001.npy",
+    "kj001.npy",
+    "lt001.npy",
+    "lx001.npy",
+    "lx00152 .npy",
+    "lx00158 .npy",
+    "xd001.npy"
+  ],
+  "missing_target": [
+    "aj00100.npy",
+    "cs00100.npy",
+    "dm00400.npy",
+    "gd00160.npy",
+    "jc00100.npy",
+    "kj00100.npy",
+    "lt00100.npy",
+    "lx00100.npy",
+    "lx00152.npy",
+    "lx00158.npy",
+    "xd00100.npy"
+  ],
+  "prefix_pair_counts": {
+    "aj": 80,
+    "cs": 80,
+    "dg": 81,
+    "dm": 80,
+    "gd": 80,
+    "jc": 80,
+    "kj": 80,
+    "lt": 80,
+    "lx": 78,
+    "xd": 80
+  },
+  "expected_shape": [
+    2048,
+    3
+  ],
+  "shape_errors": [],
+  "duplicate_mesh_stems": {},
+  "checksums_included": true
+}

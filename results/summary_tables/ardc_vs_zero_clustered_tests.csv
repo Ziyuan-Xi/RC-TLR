@@ -1,0 +1,4 @@
+comparison,cluster_level,n_clusters,n_pairs,wins,losses,mean_delta_cd_zero_minus_ardc,bootstrap95_low,bootstrap95_high,sign_test_p_two_sided,note
+ARDC adaptive vs zero-latent fine-tune saved,seed,4,324,4,0,3.04690228752148e-05,4.273155175241424e-06,5.666489057518818e-05,0.125,Primary conservative audit; only four random-split seeds are available.
+ARDC adaptive vs zero-latent fine-tune saved,basename,274,324,160,114,2.7509871870279312e-05,8.700426255518212e-06,4.614222740387394e-05,0.006451928990872362,Secondary clustered audit; samples repeated across seed splits are grouped by basename.
+ARDC adaptive vs zero-latent fine-tune saved,sample_pooled_reference_only,324,324,196,128,3.04690228752148e-05,1.3385514188327907e-05,4.754970310094916e-05,,Reference only; not the primary inferential unit because samples are nested within seeds and basenames.

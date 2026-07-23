@@ -1,0 +1,7 @@
+method,folds,mean_cd,flat_l2_cd,mean_delta,relative_reduction,positive_folds,nonzero_sign_test,sign_test_p,bootstrap_95_ci_low,bootstrap_95_ci_high,interpretation
+prefix collapse-aware RC-TLR,10,0.026400999,0.027778103,0.001377104,0.0496,5/10,5/8,0.7266,-0.000333582,0.003575162,mean improvement is real in aggregate but not prefix-significant with only 10 families
+samplewise RC-TLR,10,0.026550711,0.027777201,0.001226490,0.0442,3/10,3/6,1.0000,-0.000240535,0.003213296,improves mean and coverage but is not a stronger CD result
+RC-TLR v2 conservative,10,0.026360483,0.027777201,0.001416718,0.0510,3/10,3/6,1.0000,-0.000151405,0.003506941,best valid mean after risk-controlled sample-prefix selection; no selected collapse
+meta kNN RC-TLR,10,0.026609554,0.027777201,0.001167648,0.0420,5/10,5/8,0.7266,0.000013804,0.002650241,more calibrated sign pattern but lower CD than RC-TLR v2
+prefix RC-TLR MSE h512,10,0.027263729,0.027778103,0.000514373,0.0185,not audited,not audited,not audited,not audited,not audited,weak positive hyperparameter variant
+prefix RC-TLR NCE h256,10,0.027446797,0.027778103,0.000331306,0.0119,not audited,not audited,not audited,not audited,not audited,weak positive hyperparameter variant
